@@ -17,7 +17,7 @@ chmod 777 /home/$user/.bashrc
 
 echo -e "\033[31m 如果你发现bash不能正常使用，去/tmp/backup/目录恢复bashrc文件 \033[0m"
 
-if (ls  -a /home/$user/ | grep .conky)
+if (ls  -a /home/$user/ | grep .conky > /dev/null 2>&1)
 then
 :
 else

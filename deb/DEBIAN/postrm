@@ -1,6 +1,0 @@
-#!/bin/bash
-
-user=$(ls /home/)
-
-echo -e "\033[31m Bye~ And Fuck You \033[0m"
-rm -rf /home/$user/.conky/

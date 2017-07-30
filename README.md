@@ -1,2 +1,4 @@
 # Linux主题，大部分桌面都适用
-百度云盘下载地址：https://pan.baidu.com/s/1i4U9hXz
+安装： 	git clone https://github.com/Linux-Theme-Collection/Theme-By-Mame.git
+	cd Theme-By-Mame
+	./install.sh

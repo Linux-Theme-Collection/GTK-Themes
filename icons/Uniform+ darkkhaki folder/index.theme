@@ -1,0 +1,20 @@
+[Icon Theme]
+Name=Uniform+ darkkhaki folder
+Comment=A non-uniform yet consistent icon theme by 0rAX0. CC Attribution-Noncommercial-Share Alike. Mod. ZMA zma.05@mail.ru. 29.09.2015.
+Example=folder
+Inherits=Uniform+,Humanity,gnome,hicolor
+Directories=actions/scalable,places/scalable
+
+[actions/scalable]
+Size=256
+Context=Actions
+Type=Scalable
+MinSize=16
+MaxSize=256
+
+[places/scalable]
+Size=256
+Context=Places
+Type=Scalable
+MinSize=16
+MaxSize=256

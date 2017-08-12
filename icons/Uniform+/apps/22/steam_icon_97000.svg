@@ -1,0 +1,54 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" viewBox="0 0 22 22" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="4" y1="0" x2="44" y2="0" gradientTransform="matrix(0.293698,0,0,0.284254,3.905859,4.034766)">
+<stop offset="0" style="stop-color:rgb(20%,20%,20%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(40.392157%,40.392157%,40.392157%);stop-opacity:1;"/>
+</linearGradient>
+<clipPath id="clip1">
+  <path d="M 1.375 1.832031 L 21 1.832031 L 21 20.625 L 1.375 20.625 Z M 1.375 1.832031 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 18.003906 17.679688 C 14.269531 21.292969 8.222656 21.289062 4.492188 17.679688 C 0.765625 14.070312 0.761719 8.214844 4.492188 4.605469 C 8.226562 0.992188 14.273438 0.996094 18.003906 4.605469 C 21.730469 8.214844 21.734375 14.070312 18.003906 17.679688 Z M 18.003906 17.679688 "/>
+</clipPath>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<image id="image11" width="22" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABmJLR0QA/wD/AP+gvaeTAAAAe0lEQVQ4je2SMRJAQAxFk4xVKbX2OM6ldhdn0KiVKo2KK6xiv95IZjAq+9qfvKT4RInEGbbCPEYz30VwW5zHyK1z9QqINtM5N80hLFdZZn20ArIRqeKeiCslU5feksTfi81WFMwoALWrj8S7CJqyHKxleB9oHJ/cTfySA3B7HxZ2jF1cAAAAAElFTkSuQmCC"/>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<use xlink:href="#image11"/>
+  </g>
+</mask>
+<clipPath id="clip3">
+  <rect width="22" height="22"/>
+</clipPath>
+<g id="surface13" clip-path="url(#clip3)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(40%,40%,40%);fill-opacity:1;" d="M 15.652344 15.40625 L 6.839844 15.40625 L 6.839844 6.875 L 15.652344 6.875 L 15.652344 15.40625 "/>
+</g>
+<clipPath id="clip4">
+  <path d="M 6.417969 6.417969 L 15.582031 6.417969 L 15.582031 15.125 L 6.417969 15.125 Z M 6.417969 6.417969 "/>
+</clipPath>
+<clipPath id="clip5">
+  <path d="M 17.710938 17.394531 C 13.976562 21.007812 7.929688 21.003906 4.199219 17.394531 C 0.472656 13.789062 0.46875 7.933594 4.199219 4.320312 C 7.929688 0.707031 13.980469 0.710938 17.710938 4.320312 C 21.4375 7.929688 21.441406 13.785156 17.710938 17.394531 Z M 17.710938 17.394531 "/>
+</clipPath>
+<radialGradient id="radial0" gradientUnits="userSpaceOnUse" cx="24" cy="24" fx="24" fy="24" r="15" gradientTransform="matrix(0.293698,0.284254,-0.293698,0.284254,10.954618,-2.786187)">
+<stop offset="0" style="stop-color:rgb(100%,89.803922%,38.431373%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(89.411765%,75.294118%,0%);stop-opacity:1;"/>
+</radialGradient>
+</defs>
+<g id="surface2">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(96.862745%,85.098039%,26.27451%);fill-opacity:1;" d="M 21.875 10.699219 C 21.699219 12.96875 20.609375 15.621094 19.101562 17.472656 C 17.257812 19.722656 14.4375 21.371094 11.660156 21.8125 C 11.050781 21.910156 9.644531 21.9375 9.019531 21.867188 C 6.425781 21.5625 3.847656 20.042969 2.167969 17.820312 C 1.253906 16.613281 0.527344 15.019531 0.210938 13.523438 C -0.617188 9.628906 0.949219 5.570312 4.351562 2.785156 C 6.386719 1.117188 8.445312 0.253906 10.875 0.0429688 C 13.789062 -0.210938 16.914062 0.9375 19.015625 3.03125 C 20.667969 4.679688 21.71875 6.886719 21.851562 8.980469 C 21.871094 9.285156 21.894531 9.65625 21.902344 9.808594 C 21.914062 9.960938 21.902344 10.363281 21.875 10.699219 Z M 21.875 10.699219 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 5.082031 5.171875 L 16.828125 5.171875 L 16.828125 16.542969 L 5.082031 16.542969 Z M 5.082031 5.171875 "/>
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<use xlink:href="#surface13" mask="url(#mask0)"/>
+</g>
+</g>
+<g clip-path="url(#clip4)" clip-rule="nonzero">
+<g clip-path="url(#clip5)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#radial0);" d="M 15.359375 15.121094 L 6.546875 15.121094 L 6.546875 6.59375 L 15.359375 6.59375 L 15.359375 15.121094 "/>
+</g>
+</g>
+</g>
+</svg>

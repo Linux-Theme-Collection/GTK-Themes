@@ -1,0 +1,18 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="0" y1="47" x2="0" y2="1" gradientTransform="matrix(0.661009,0,0,0.632595,8.000625,8.385)">
+<stop offset="0" style="stop-color:rgb(76.078431%,14.117647%,15.686275%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(82.745098%,15.294118%,17.254902%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(18.431373%,30.980392%,30.980392%);fill-opacity:1;" d="M 47.695312 22.183594 C 50.417969 51.300781 4.464844 59.136719 0.894531 29.242188 C -3.527344 1.75 38.128906 -12.40625 46.457031 14.910156 C 47.371094 17.21875 47.355469 19.742188 47.695312 22.183594 Z M 47.695312 22.183594 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 23.863281 10.914062 L 23.863281 36.21875 L 37.085938 36.21875 L 37.085938 10.914062 L 30.476562 10.914062 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(29.019608%,47.058824%,23.921569%);fill-opacity:1;" d="M 23.863281 10.914062 L 10.644531 10.914062 L 10.644531 36.21875 L 23.863281 36.21875 L 23.863281 23.566406 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.101961;" d="M 24.527344 16.609375 L 24.527344 31.789062 L 27.167969 31.789062 L 25.867188 24.992188 L 35.101562 26.097656 L 35.101562 22.300781 L 25.867188 23.410156 L 27.167969 16.609375 Z M 24.527344 16.609375 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.101961;" d="M 24.527344 17.242188 L 21.882812 22.300781 L 15.273438 21.671875 L 20.558594 26.734375 L 18.578125 32.425781 L 24.527344 29.261719 M 24.527344 17.242188 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(16.078431%,16.078431%,16.078431%);fill-opacity:1;" d="M 23.863281 15.976562 L 23.863281 31.160156 L 26.507812 31.160156 L 25.207031 24.359375 L 34.441406 25.464844 L 34.441406 21.667969 L 25.207031 22.777344 L 26.507812 15.976562 Z M 23.863281 15.976562 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(97.254902%,97.254902%,97.254902%);fill-opacity:1;" d="M 23.863281 16.609375 L 21.222656 21.667969 L 14.609375 21.039062 L 19.898438 26.101562 L 17.914062 31.792969 L 23.863281 28.628906 M 23.863281 16.609375 "/>
+</g>
+</svg>

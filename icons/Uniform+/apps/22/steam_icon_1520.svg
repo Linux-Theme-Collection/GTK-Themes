@@ -1,0 +1,21 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" viewBox="0 0 22 22" version="1.1">
+<defs>
+<radialGradient id="radial0" gradientUnits="userSpaceOnUse" cx="47.746" cy="48" fx="47.746" fy="48" r="16.254" gradientTransform="matrix(0.452861,0.30477,-0.278734,0.471489,3.123088,-26.480847)">
+<stop offset="0" style="stop-color:rgb(93.333333%,54.117647%,4.705882%);stop-opacity:1;"/>
+<stop offset="0.33" style="stop-color:rgb(79.215686%,0%,1.960784%);stop-opacity:1;"/>
+<stop offset="0.771" style="stop-color:rgb(32.54902%,0.392157%,6.666667%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(0%,0%,0%);stop-opacity:1;"/>
+</radialGradient>
+<radialGradient id="radial1" gradientUnits="userSpaceOnUse" cx="48" cy="47.876" fx="48" fy="47.876" r="26" gradientTransform="matrix(0.286015,0,0,0.262978,-2.359734,-1.942144)">
+<stop offset="0" style="stop-color:rgb(100%,97.254902%,7.843137%);stop-opacity:1;"/>
+<stop offset="0.5" style="stop-color:rgb(100%,77.254902%,8.627451%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(85.490196%,52.54902%,0%);stop-opacity:0.666667;"/>
+</radialGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(17.647059%,0.392157%,3.529412%);fill-opacity:1;" d="M 4.542969 19.851562 C 21.082031 30.851562 31.269531 -4.214844 9.890625 0.425781 C 1.050781 2.40625 -4.308594 14.8125 4.542969 19.851562 Z M 4.542969 19.851562 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#radial0);" d="M 18.453125 10.703125 L 18.453125 17.910156 L 4.277344 17.910156 L 4.277344 3.496094 L 18.453125 3.496094 Z M 18.453125 10.703125 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#radial1);" d="M 7.648438 4.230469 C 5.347656 5.550781 3.929688 8.003906 3.929688 10.644531 L 9.082031 10.644531 C 9.082031 9.804688 9.542969 9.074219 10.226562 8.679688 L 7.648438 4.226562 Z M 15.085938 4.230469 L 12.511719 8.679688 C 13.195312 9.074219 13.65625 9.804688 13.65625 10.648438 L 18.804688 10.648438 C 18.804688 8.003906 17.386719 5.550781 15.085938 4.230469 Z M 11.367188 9.222656 C 10.578125 9.222656 9.9375 9.859375 9.9375 10.648438 C 9.9375 11.433594 10.578125 12.074219 11.367188 12.074219 C 12.160156 12.074219 12.800781 11.433594 12.800781 10.648438 C 12.800781 9.859375 12.160156 9.222656 11.367188 9.222656 Z M 10.226562 12.613281 L 7.648438 17.066406 C 9.949219 18.390625 12.785156 18.390625 15.085938 17.066406 L 12.511719 12.613281 C 12.175781 12.808594 11.785156 12.925781 11.367188 12.925781 C 10.949219 12.925781 10.5625 12.808594 10.226562 12.613281 Z M 10.226562 12.613281 "/>
+</g>
+</svg>

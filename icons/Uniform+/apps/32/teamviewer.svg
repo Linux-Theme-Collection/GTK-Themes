@@ -1,0 +1,16 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="0" y1="18.872" x2="0" y2="29.24" gradientTransform="matrix(1,0,0,1,-0.000000000000000444,0)">
+<stop offset="0" style="stop-color:rgb(100%,100%,100%);stop-opacity:0.4;"/>
+<stop offset="1" style="stop-color:rgb(100%,100%,100%);stop-opacity:0;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(39.215686%,58.431373%,92.941176%);fill-opacity:1;" d="M 5.605469 4.640625 C -19.621094 37.9375 49.800781 42.667969 27.523438 8.679688 C 22.441406 0.933594 12.285156 -4.175781 5.605469 4.640625 Z M 5.605469 4.640625 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.0509804;" d="M 13.144531 16.316406 L 19.222656 16.316406 L 19.222656 11.949219 L 27.199219 18.46875 L 19.222656 25.046875 L 19.222656 20.679688 L 13.144531 20.679688 L 13.144531 25.046875 L 5.167969 18.46875 L 13.144531 11.949219 Z M 13.144531 16.316406 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.14902;" d="M 12.609375 15.355469 L 18.6875 15.355469 L 18.6875 10.988281 L 26.664062 17.507812 L 18.6875 24.085938 L 18.6875 19.722656 L 12.609375 19.722656 L 12.609375 24.085938 L 4.636719 17.507812 L 12.609375 10.988281 Z M 12.609375 15.355469 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 12.230469 14.480469 L 19.066406 14.480469 L 19.066406 10.964844 L 25.902344 16.636719 L 19.066406 22.3125 L 19.066406 18.847656 L 12.230469 18.847656 L 12.230469 22.3125 L 5.394531 16.636719 L 12.230469 10.964844 Z M 12.230469 14.480469 "/>
+<path style="fill:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:url(#linear0);stroke-miterlimit:4;" d="M 18.321144 22.554228 L 29.320643 22.554228 L 29.320643 19.373355 L 35.820581 24.021635 L 29.320643 28.669916 L 29.320643 25.551676 L 18.321144 25.551676 L 18.321144 28.737023 L 11.821206 24.021635 L 18.321144 19.373355 Z M 18.321144 22.554228 " transform="matrix(0.759623,0,0,0.873139,-2.4445,-4.3375)"/>
+</g>
+</svg>

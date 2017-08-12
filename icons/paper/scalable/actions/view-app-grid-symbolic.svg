@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg7384" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" style="enable-background:new" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" height="16" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Paper Symbolic Icon Theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <title id="title8473">Paper Symbolic Icon Theme</title>
+ <defs id="defs7386">
+  <filter id="filter7554" style="color-interpolation-filters:sRGB">
+   <feBlend id="feBlend7556" in2="BackgroundImage" mode="darken"/>
+  </filter>
+ </defs>
+ <g id="layer12" transform="translate(-705 -24.997)">
+  <rect id="rect6337" style="fill:#555" ry=".25" height="2" width="2" y="28" x="708"/>
+  <use id="use6371" xlink:href="#rect6337" transform="translate(4)" height="100%" width="100%" y="0" x="0"/>
+  <use id="use6373" xlink:href="#rect6337" transform="translate(8)" height="100%" width="100%" y="0" x="0"/>
+  <use id="use6375" xlink:href="#rect6337" transform="translate(4,4)" height="100%" width="100%" y="0" x="0"/>
+  <use id="use6377" xlink:href="#rect6337" transform="translate(8,4)" height="100%" width="100%" y="0" x="0"/>
+  <use id="use6379" xlink:href="#rect6337" transform="translate(4,8)" height="100%" width="100%" y="0" x="0"/>
+  <use id="use6381" xlink:href="#rect6337" transform="translate(8,8)" height="100%" width="100%" y="0" x="0"/>
+  <use id="use6383" xlink:href="#rect6337" transform="translate(0,4)" height="100%" width="100%" y="0" x="0"/>
+  <use id="use6385" xlink:href="#rect6337" transform="translate(0,8)" height="100%" width="100%" y="0" x="0"/>
+ </g>
+</svg>

@@ -1,0 +1,18 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="398.02" y1="0" x2="419.12" y2="0" gradientTransform="matrix(0.344931,0,0,0.328063,-133.11625,-163.82125)">
+<stop offset="0" style="stop-color:rgb(94.901961%,94.901961%,94.901961%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(98.039216%,98.039216%,98.039216%);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="398.02" y1="0" x2="419.12" y2="0" gradientTransform="matrix(0.344931,0,0,0.328063,-133.11625,-163.82125)">
+<stop offset="0" style="stop-color:rgb(94.901961%,94.901961%,94.901961%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(98.039216%,98.039216%,98.039216%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,48.627451%,48.627451%);fill-opacity:1;" d="M 14.351562 12.238281 C 20.105469 4.058594 9.480469 -4.234375 2.703125 2.433594 C -3.683594 8.714844 2.238281 18.476562 10.183594 15.425781 C 11.839844 14.789062 13.296875 13.742188 14.351562 12.238281 Z M 14.351562 12.238281 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 8.199219 3.804688 C 13.054688 9.417969 11.710938 11.628906 4.171875 10.4375 C 9.234375 10.265625 10.574219 8.058594 8.199219 3.804688 Z M 8.199219 3.804688 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear1);" d="M 7.863281 5.28125 C 4.28125 5.339844 3.632812 7.003906 5.902344 10.273438 C 6.117188 10.238281 6.320312 10.203125 6.515625 10.15625 C 5.648438 7.257812 7.292969 5.730469 11.453125 5.59375 C 10.039062 5.371094 8.84375 5.265625 7.863281 5.28125 Z M 6.195312 10.691406 C 6.550781 11.171875 6.957031 11.683594 7.429688 12.230469 C 7.132812 11.699219 6.886719 11.199219 6.707031 10.730469 C 6.542969 10.71875 6.371094 10.703125 6.195312 10.691406 Z M 6.195312 10.691406 "/>
+</g>
+</svg>

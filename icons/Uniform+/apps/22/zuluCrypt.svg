@@ -1,0 +1,25 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" viewBox="0 0 22 22" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<image id="image11" width="22" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABmJLR0QA/wD/AP+gvaeTAAAAh0lEQVQ4jWNgGAVDFjCiC7DY27P8f/KEmWgD2Nn//7l27RdBg3cwM3foMDBYE2uw/P//T//++xeB4UB0gU8MDEwfGRiIdnExExNT179/GOJMxBpAKhg1mPYGY6QKdgaG/ywMDP+JNYANh1rMDBISwpx27x7RPpnFy/v/z8GDf4hVPwpGAQ0AACbCIAtoebVrAAAAAElFTkSuQmCC"/>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<use xlink:href="#image11"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect width="22" height="22"/>
+</clipPath>
+<g id="surface13" clip-path="url(#clip1)">
+<path style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 10.000277 18.503654 L 20.998331 18.503654 L 11.001756 31.50098 L 21.99981 31.50098 " transform="matrix(0.429053,0,0,0.42076,0.502318,0.304253)"/>
+<path style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 36.994673 31.491696 C 36.994673 31.491696 25.951097 31.96517 25.996619 22.950596 C 26.051245 13.926739 36.994673 14.493051 36.994673 14.493051 " transform="matrix(0.429053,0,0,0.42076,0.502318,0.304253)"/>
+</g>
+</defs>
+<g id="surface2">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(96.078431%,46.27451%,20.784314%);fill-opacity:1;" d="M 4.003906 18.886719 C -13.191406 -3.910156 34.136719 -7.152344 18.945312 16.117188 C 15.484375 21.421875 8.558594 24.921875 4.003906 18.886719 Z M 4.003906 18.886719 "/>
+<use xlink:href="#surface13" mask="url(#mask0)"/>
+</g>
+</svg>

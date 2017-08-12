@@ -1,0 +1,24 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="7.897723" y1="33.590416" x2="7.897723" y2="1.437965" gradientTransform="matrix(0.275071,0,0,0.257806,3.837202,2.888679)">
+<stop offset="0" style="stop-color:rgb(49.803922%,49.803922%,49.803922%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(49.411765%,49.411765%,49.411765%);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="30.75" y1="35.537689" x2="30.75" y2="8.625" gradientTransform="matrix(0.311715,0,0,0.292151,-0.0242563,0.804735)">
+<stop offset="0" style="stop-color:rgb(38.039216%,38.039216%,38.039216%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(59.607843%,59.607843%,59.607843%);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear2" gradientUnits="userSpaceOnUse" x1="37.388271" y1="17.064079" x2="10.518213" y2="17.064079" gradientTransform="matrix(0.311715,0,0,0.292151,-0.0242563,0.804735)">
+<stop offset="0" style="stop-color:rgb(48.235294%,48.235294%,48.235294%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(43.921569%,43.921569%,43.921569%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(58.039216%,58.039216%,58.039216%);fill-opacity:1;" d="M 13.679688 2.800781 C -2.96875 -9.8125 -5.335938 24.902344 11.660156 13.761719 C 15.535156 11.222656 18.089844 6.144531 13.679688 2.800781 Z M 13.679688 2.800781 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 11.613281 10.066406 L 7.457031 12.316406 L 3.300781 10.066406 L 3.300781 5.566406 L 7.457031 3.316406 L 11.613281 5.566406 Z M 11.613281 10.066406 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear1);" d="M 7.457031 3.316406 L 7.457031 12.316406 L 11.613281 10.066406 L 11.613281 5.566406 Z M 7.457031 3.316406 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear2);" d="M 7.457031 3.316406 L 3.300781 5.566406 L 7.457031 7.816406 L 11.613281 5.566406 Z M 7.457031 3.316406 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:0.235294;" d="M 7.457031 3.316406 L 11.613281 5.566406 Z M 7.457031 3.316406 "/>
+</g>
+</svg>

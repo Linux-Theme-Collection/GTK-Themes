@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 256 256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="syspeek-100.svg">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="688"
+     inkscape:window-height="496"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="0.921875"
+     inkscape:cx="128"
+     inkscape:cy="128"
+     inkscape:window-x="511"
+     inkscape:window-y="399"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g14" />
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath6">
+      <path
+         transform="matrix(15.33333 0 0 11.5 415 -125.5)"
+         d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
+         id="path8" />
+    </clipPath>
+  </defs>
+  <g
+     transform="translate(0 -796.36)"
+     id="g10">
+    <path
+       d="m 252.75 895.07 c -49.981 -239.91 -393.86 17.642 -187.29 139.59 80.25 52.27 213 -16.2 187.29 -139.59 z"
+       style="fill:#ff8c00;color:#000"
+       id="path12" />
+    <g
+       transform="matrix(9.13559 0 0 9.54237 25.966 813.11)"
+       style="fill:#fff"
+       id="g14">
+      <path
+         d="m 6.5 4 c -1.376 0 -2.5 1.124 -2.5 2.5 v 11 c 0 1.376 1.124 2.5 2.5 2.5 h 11 c 1.376 0 2.5 -1.124 2.5 -2.5 v -11 c 0 -1.376 -1.124 -2.5 -2.5 -2.5 h -11 z m 0 1 h 11 c 0.84 0 1.5 0.66 1.5 1.5 v 11 c 0 0.84 -0.66 1.5 -1.5 1.5 h -11 c -0.84 0 -1.5 -0.66 -1.5 -1.5 v -11 c 0 -0.84 0.66 -1.5 1.5 -1.5 z"
+         style="color:#000"
+         id="path16" />
+      <path
+         d="M 7,6.7495556 H 17 V 17 H 7 z"
+         id="path18"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

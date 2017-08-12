@@ -1,0 +1,18 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" viewBox="0 0 22 22" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="4" y1="24" x2="44" y2="24" gradientTransform="matrix(0.265805,0,0,0.255813,5.012407,5.368089)">
+<stop offset="0" style="stop-color:rgb(0%,0%,0%);stop-opacity:0.301961;"/>
+<stop offset="1" style="stop-color:rgb(0%,0%,0%);stop-opacity:0;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(46.666667%,53.333333%,60%);fill-opacity:1;" d="M 1.8125 17.46875 C 6.019531 25.074219 19.203125 22.121094 21.433594 15.855469 C 24.089844 8.398438 17.171875 -5.773438 5.457031 2.527344 C 1.511719 5.425781 -2.390625 9.859375 1.8125 17.46875 Z M 1.8125 17.46875 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(11.764706%,63.921569%,97.647059%);fill-opacity:1;" d="M 6.078125 11.507812 L 11.390625 11.507812 L 11.390625 16.625 L 6.078125 16.625 Z M 6.078125 11.507812 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(12.54902%,21.568627%,27.45098%);fill-opacity:1;" d="M 11.390625 11.507812 L 16.699219 11.507812 L 16.699219 16.625 L 11.390625 16.625 Z M 11.390625 11.507812 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(12.54902%,21.568627%,27.45098%);fill-opacity:1;" d="M 6.074219 6.390625 L 11.390625 6.390625 L 11.390625 11.507812 L 6.074219 11.507812 Z M 6.074219 6.390625 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(11.764706%,63.921569%,97.647059%);fill-opacity:1;" d="M 11.390625 6.390625 L 16.707031 6.390625 L 16.707031 11.507812 L 11.390625 11.507812 Z M 11.390625 6.390625 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 6.078125 6.390625 L 16.707031 6.390625 L 16.707031 16.625 L 6.078125 16.625 Z M 6.078125 6.390625 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.501961;" d="M 6.078125 16.625 C 11.390625 16.367188 11.390625 16.367188 16.707031 16.625 Z M 6.078125 16.625 "/>
+</g>
+</svg>

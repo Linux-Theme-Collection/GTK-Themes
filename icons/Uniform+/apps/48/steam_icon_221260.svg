@@ -1,0 +1,34 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 14 15 L 34 15 L 34 36 L 14 36 Z M 14 15 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 42.128906 24.328125 C 42.128906 34.953125 33.664062 43.5625 23.238281 43.5625 C 12.808594 43.5625 4.34375 34.953125 4.34375 24.328125 C 4.34375 13.699219 12.808594 5.09375 23.238281 5.09375 C 33.664062 5.09375 42.128906 13.699219 42.128906 24.328125 Z M 42.128906 24.328125 "/>
+</clipPath>
+<clipPath id="clip3">
+  <path d="M 13 14 L 34 14 L 34 35 L 13 35 Z M 13 14 "/>
+</clipPath>
+<clipPath id="clip4">
+  <path d="M 42.128906 24.328125 C 42.128906 34.953125 33.664062 43.5625 23.238281 43.5625 C 12.808594 43.5625 4.34375 34.953125 4.34375 24.328125 C 4.34375 13.699219 12.808594 5.09375 23.238281 5.09375 C 33.664062 5.09375 42.128906 13.699219 42.128906 24.328125 Z M 42.128906 24.328125 "/>
+</clipPath>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="11.999" y1="0" x2="35.999" y2="0" gradientTransform="matrix(0.821385,0,0,0.836267,3.524063,4.25625)">
+<stop offset="0" style="stop-color:rgb(15.686275%,15.686275%,15.686275%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(25.882353%,25.882353%,25.882353%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(96.470588%,70.980392%,21.176471%);fill-opacity:1;" d="M 4.945312 11.28125 C -12.3125 35.832031 19.558594 60.707031 39.894531 40.703125 C 59.050781 21.855469 41.289062 -7.425781 17.453125 1.730469 C 12.476562 3.636719 8.113281 6.773438 4.945312 11.28125 Z M 4.945312 11.28125 "/>
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,0%,0%);fill-opacity:0.101961;" d="M 14.199219 15.128906 L 14.199219 20.144531 L 16.664062 20.144531 L 16.664062 35.199219 L 31.449219 35.199219 L 31.449219 20.144531 L 33.910156 20.144531 L 33.910156 15.128906 M 14.199219 15.128906 "/>
+</g>
+</g>
+<g clip-path="url(#clip3)" clip-rule="nonzero">
+<g clip-path="url(#clip4)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:evenodd;fill:url(#linear0);" d="M 13.378906 14.292969 L 13.378906 19.308594 L 15.839844 19.308594 L 15.839844 34.363281 L 30.625 34.363281 L 30.625 19.308594 L 33.089844 19.308594 L 33.089844 14.292969 M 13.378906 14.292969 "/>
+</g>
+</g>
+</g>
+</svg>

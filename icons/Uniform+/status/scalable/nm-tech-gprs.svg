@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 256 256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="nm-tech-gprs.svg">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs20" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="644"
+     inkscape:window-height="500"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="0.921875"
+     inkscape:cx="128"
+     inkscape:cy="128"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g4" />
+  <g
+     transform="matrix(11.64244 0 0 10.58937 -3.818 18.587)"
+     style="fill:none;stroke:#ff8c00;stroke-linecap:round"
+     id="g4">
+    <path
+       d="M 20.5,19.535233 V 17.669641"
+       id="path6"
+       inkscape:connector-curvature="0"
+       style="stroke-width:0.96581364000000003;stroke:#dc143c" />
+    <path
+       d="M 17.5,15.616 V 13.5"
+       id="path8"
+       style="stroke:#dc143c" />
+    <path
+       d="m 17.5 19.5 v -2"
+       id="path10"
+       style="stroke:#dc143c" />
+    <path
+       d="m 19.5 12.5 h -1.117"
+       id="path12"
+       style="stroke:#dc143c" />
+    <path
+       d="m 20.5 16.5 h -1.117"
+       id="path14"
+       style="fill:#dc143c;stroke:#dc143c" />
+    <path
+       d="m 19.5 20.5 h -1.117"
+       id="path16"
+       style="stroke:#dc143c" />
+  </g>
+</svg>

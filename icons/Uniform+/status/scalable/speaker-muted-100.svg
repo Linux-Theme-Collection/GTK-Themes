@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 256 256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="speaker-100.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="659"
+     inkscape:window-height="496"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="0.98603159"
+     inkscape:cx="124.0328"
+     inkscape:cy="128"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="speaker-000" />
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <g
+     transform="translate(1.1763591,-1.1684208)"
+     id="g3574">
+    <g
+       transform="translate(-16.328077,23.325825)"
+       style="fill:#787878"
+       id="g3559">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 267.94775,123.07588 C 295.34685,-26.076137 73.257675,-76.824345 24.367165,58.8282 -21.689405,186.63632 148.79322,288.96725 232.75134,194.14693 c 17.51596,-19.78286 30.16665,-43.70295 35.19344,-71.08087 z"
+         style="color:#000000;fill:#949494"
+         id="path3561" />
+      <g
+         style="stroke:#949494;display:block"
+         transform="matrix(3.763725,0,0,3.1080955,32.463588,18.379092)"
+         display="block"
+         id="speaker-000">
+        <rect
+           style="fill:#ffffff;stroke:#949494;stroke-width:1;display:inline"
+           display="inline"
+           height="17.014"
+           width="12.256"
+           x="9.4322987"
+           y="19.368799"
+           id="rect4280" />
+        <g
+           transform="translate(1.8885413,0.35040071)"
+           style="stroke:#cccccc;display:inline"
+           display="inline"
+           id="g4282">
+          <g
+             style="stroke:#cccccc"
+             id="g4284">
+            <polygon
+               style="fill:none;stroke:#cccccc;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round"
+               points="7.229,18.668 7.229,35.682 18.096,35.682 41.062,50.523 41.059,3.827 18.014,18.668 "
+               id="polygon4286" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

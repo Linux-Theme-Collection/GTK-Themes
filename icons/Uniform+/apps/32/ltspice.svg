@@ -1,0 +1,27 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<image id="image11" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAcUlEQVRYhWNgGAWjYBSMglEwwIARnyRrfT0TtSz63dj4jyQHsNbXM33u7hallgO4JSU//L179ye6OAs+Td0EQogagGpBPOqAUQeMOoBcgDOfs/37x7hXUJCfWhYtV1b+Ou3cud/UMm8UjIJRMAqGDwAA9skUoglfXSQAAAAASUVORK5CYII="/>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<use xlink:href="#image11"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect width="32" height="32"/>
+</clipPath>
+<g id="surface13" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 15.332031 11.667969 C 14.683594 12.023438 9.222656 21.410156 17.78125 20.449219 L 17.132812 21.863281 L 6.683594 21.851562 C 12.464844 19.917969 9.644531 12.648438 15.332031 11.667969 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 17.921875 21.863281 C 18.566406 21.503906 24.027344 12.121094 15.472656 13.078125 L 16.121094 11.667969 L 26.570312 11.679688 C 20.785156 13.609375 23.605469 20.882812 17.921875 21.863281 "/>
+</g>
+</defs>
+<g id="surface2">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(89.411765%,83.137255%,83.137255%);fill-opacity:1;" d="M 5.683594 28.433594 C 17.652344 36.214844 28.558594 29.9375 31.144531 21.125 C 34.625 9.269531 25.480469 -6.824219 6.632812 3.78125 C -0.855469 7.996094 -2.839844 22.886719 5.683594 28.433594 Z M 5.683594 28.433594 "/>
+<use xlink:href="#surface13" mask="url(#mask0)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.470588%,15.686275%,15.686275%);fill-opacity:1;" d="M 14.621094 10.886719 C 13.972656 11.238281 8.511719 20.628906 17.074219 19.667969 L 16.421875 21.078125 L 5.972656 21.066406 C 11.753906 19.136719 8.9375 11.863281 14.621094 10.886719 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.470588%,15.686275%,15.686275%);fill-opacity:1;" d="M 17.210938 21.078125 C 17.855469 20.722656 23.320312 11.335938 14.761719 12.292969 L 15.410156 10.886719 L 25.859375 10.894531 C 20.078125 12.824219 22.894531 20.097656 17.210938 21.078125 "/>
+</g>
+</svg>

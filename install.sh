@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if (whereis git | grep / >> /dev/null)
+then :
+else echo "请安装Git"
+exit
+fi
+
 echo "安装GTK主题..."
 sudo cp -rf themes/ /usr/share/
 

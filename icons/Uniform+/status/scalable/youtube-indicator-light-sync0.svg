@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 256 256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="youtube-indicator-downloading-light.svg">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="928"
+     inkscape:window-height="731"
+     id="namedview21"
+     showgrid="false"
+     inkscape:zoom="0.98603159"
+     inkscape:cx="88"
+     inkscape:cy="128"
+     inkscape:window-x="587"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <path
+       id="0"
+       d="m 245.46 129.52 l -97.89 -96.9 c -5.556 -5.502 -16.222 -11.873 -23.7 -14.16 l -39.518 -12.08 c -7.479 -2.286 -18.1 0.391 -23.599 5.948 l -13.441 13.578 c -5.5 5.559 -14.502 14.653 -20 20.21 l -13.44 13.579 c -5.5 5.558 -8.07 16.206 -5.706 23.658 l 12.483 39.39 c 2.363 7.456 8.843 18.06 14.399 23.556 l 97.89 96.9 c 5.558 5.502 14.605 5.455 20.1 -0.101 l 36.26 -36.63 c 5.504 -5.559 14.503 -14.651 20 -20.21 l 36.26 -36.629 c 5.502 -5.56 5.455 -14.606 -0.101 -20.11 z m -178.09 -50.74 c -7.198 0 -13.03 -5.835 -13.03 -13.03 0 -7.197 5.835 -13.03 13.03 -13.03 7.197 0 13.03 5.835 13.03 13.03 -0.001 7.198 -5.836 13.03 -13.03 13.03 z" />
+    <use
+       id="1"
+       xlink:href="#0" />
+    <clipPath
+       style="clip-path:url(#2)"
+       id="clipPath8">
+      <use
+         xlink:href="#0"
+         id="use10" />
+    </clipPath>
+    <clipPath
+       style="clip-path:url(#2)"
+       id="clipPath12">
+      <use
+         xlink:href="#0"
+         id="use14" />
+    </clipPath>
+    <clipPath
+       id="2">
+      <use
+         xlink:href="#1"
+         id="use17" />
+    </clipPath>
+    <style
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#ffffff; }
+  </style>
+  </defs>
+  <path
+     d="m 254.31122,128.58018 c 19.233,169.75 -256.0600046,167.39 -252.8000046,-3.02 -9.07,-158.490002 267.8000046,-172.790002 252.8000046,3.02 z"
+     style="color:#000000;fill:#ff8c00"
+     id="path19"
+     inkscape:connector-curvature="0" />
+  <g
+     id="g4"
+     transform="matrix(8.5048199,0,0,9.1767157,31.812233,-9428.9732)">
+    <path
+       class="ColorScheme-ButtonBackground"
+       id="path6"
+       transform="translate(-9.5367e-7,1030.4)"
+       d="m 10.998,4 c 0,0 -3.7785,6e-4 -6.2968,0.1895 C 4.3494,4.2335 3.583,4.2375 2.8984,4.9805 2.3589,5.5469 2.1836,6.832 2.1836,6.832 c 0,0 -0.1771,1.511 -0.1797,3.0215 L 2,12.141 c -0.0026,1.51 0.1797,3.021 0.1797,3.021 0,0 0.1753,1.285 0.7148,1.852 0.6846,0.743 1.5839,0.721 1.9844,0.798 C 6.3186,17.956 10.998,18 10.998,18 c 0,0 1.211,-0.015 2.408,-0.039 C 13.146,17.357 13,16.696 13,16 c 0,-2.75 2.25,-5 5,-5 0.71,0 1.385,0.154 1.998,0.424 L 20,9.8535 C 20.003,8.343 19.82,6.832 19.82,6.832 c 0,0 -0.175,-1.2851 -0.715,-1.8515 C 18.421,4.237 17.653,4.233 17.301,4.1895 14.783,4.0006 11.006,4 11.006,4 H 10.998 z M 8,7 14,11.014 8,15 V 7 z"
+       style="color:#ffffff;fill:currentColor"
+       inkscape:connector-curvature="0" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       id="path8"
+       d="m 18,1042.4 c -2.2091,0 -4,1.7909 -4,4 0,2.2091 1.7909,4 4,4 2.2091,0 4,-1.7909 4,-4 0,-2.2091 -1.7909,-4 -4,-4 z m 0,1 a 3,3 0 0 1 3,3 h -1 a 2,2 0 0 0 -2,-2 v -1 z m -3,3 h 1 a 2,2 0 0 0 2,2 v 1 a 3,3 0 0 1 -3,-3 z"
+       style="color:#ffffff;fill:currentColor"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

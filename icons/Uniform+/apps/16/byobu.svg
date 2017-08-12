@@ -1,0 +1,19 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="6" y1="7" x2="32" y2="33" gradientTransform="matrix(0.238736,0,0,0.264171,2.228059,1.194041)">
+<stop offset="0" style="stop-color:rgb(16.078431%,17.254902%,18.431373%);stop-opacity:0.2;"/>
+<stop offset="1" style="stop-color:rgb(0%,0%,0%);stop-opacity:0;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="0" y2="8" gradientTransform="matrix(0.238736,0,0,0.264171,2.228059,1.194041)">
+<stop offset="0" style="stop-color:rgb(83.529412%,83.529412%,83.921569%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(95.686275%,96.078431%,96.078431%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(18.823529%,18.823529%,18.823529%);fill-opacity:1;" d="M 8.027344 0.203125 C 18.761719 -0.984375 18.613281 16.042969 7.835938 15.839844 C -2.1875 16.402344 -3.09375 -0.722656 8.027344 0.203125 Z M 8.027344 0.203125 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:url(#linear0);" d="M 11.777344 3.308594 L 11.777344 11.761719 L 4.136719 11.761719 L 4.855469 12.554688 L 5.09375 12.816406 L 12.734375 12.816406 L 12.734375 4.363281 Z M 11.777344 3.308594 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(10.980392%,11.764706%,12.54902%);fill-opacity:1;" d="M 3.183594 12.554688 L 12.734375 12.554688 L 12.734375 12.816406 L 3.183594 12.816406 Z M 3.183594 12.554688 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear1);" d="M 4.136719 3.308594 L 4.136719 11.761719 L 11.777344 11.761719 L 11.777344 3.308594 Z M 4.375 3.570312 L 11.539062 3.570312 L 11.539062 9.121094 L 4.375 9.121094 Z M 4.617188 4.363281 L 4.617188 4.890625 L 9.867188 4.890625 L 9.867188 4.363281 Z M 4.375 9.382812 L 11.539062 9.382812 L 11.539062 11.496094 L 4.375 11.496094 Z M 4.855469 10.175781 L 4.855469 10.441406 L 5.09375 10.441406 L 5.09375 10.175781 Z M 5.332031 10.175781 L 5.332031 10.441406 L 5.570312 10.441406 L 5.570312 10.175781 Z M 5.808594 10.175781 L 5.808594 10.441406 L 6.046875 10.441406 L 6.046875 10.175781 Z M 9.628906 10.175781 L 9.628906 10.441406 L 9.867188 10.441406 L 9.867188 10.175781 Z M 10.105469 10.175781 L 10.105469 10.441406 L 10.34375 10.441406 L 10.34375 10.175781 Z M 10.582031 10.175781 L 10.582031 10.441406 L 10.824219 10.441406 L 10.824219 10.175781 Z M 10.582031 10.175781 "/>
+</g>
+</svg>

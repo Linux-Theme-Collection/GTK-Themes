@@ -1,0 +1,57 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 0 3 L 32 3 L 32 30.667969 L 0 30.667969 Z M 0 3 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 32.457031 16.785156 C 32.457031 24.34375 25.152344 30.464844 16.152344 30.464844 C 7.15625 30.464844 -0.148438 24.34375 -0.148438 16.785156 C -0.148438 9.226562 7.15625 3.105469 16.152344 3.105469 C 25.152344 3.105469 32.457031 9.226562 32.457031 16.785156 Z M 32.457031 16.785156 "/>
+</clipPath>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<image id="image11" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAeklEQVRYhe3VsQ2AIBCF4ZNAYZzBWdjFRZBN7FmHULEBrYaEmOACxCvAyvfVcPwVRwQA8HcTd0BqLTfv555HjpTOIkRtzucu1xjVmvPSE1CtvYioGSB6Bo+AAAQgAAEIYAN2KZt/+CjsNlTGiOocu7Te3CGUnvsA8KkHur8ZbUEqAcMAAAAASUVORK5CYII="/>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<use xlink:href="#image11"/>
+  </g>
+</mask>
+<clipPath id="clip3">
+  <rect width="32" height="32"/>
+</clipPath>
+<g id="surface13" clip-path="url(#clip3)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 25.367188 10.242188 L 21.824219 10.242188 L 15.089844 16.191406 L 16.152344 16.785156 L 15.089844 17.378906 L 21.824219 24.519531 L 25.367188 24.519531 L 18.28125 16.785156 M 25.367188 10.242188 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 8.355469 10.242188 L 11.902344 10.242188 L 18.988281 16.785156 L 11.902344 24.519531 L 8.355469 24.519531 L 15.445312 16.785156 M 8.355469 10.242188 "/>
+</g>
+<clipPath id="clip4">
+  <path d="M 14 9.332031 L 24.667969 9.332031 L 24.667969 24 L 14 24 Z M 14 9.332031 "/>
+</clipPath>
+<clipPath id="clip5">
+  <path d="M 32.457031 16.785156 C 32.457031 24.34375 25.152344 30.464844 16.152344 30.464844 C 7.15625 30.464844 -0.148438 24.34375 -0.148438 16.785156 C -0.148438 9.226562 7.15625 3.105469 16.152344 3.105469 C 25.152344 3.105469 32.457031 9.226562 32.457031 16.785156 Z M 32.457031 16.785156 "/>
+</clipPath>
+<clipPath id="clip6">
+  <path d="M 7.332031 9.332031 L 18.667969 9.332031 L 18.667969 24 L 7.332031 24 Z M 7.332031 9.332031 "/>
+</clipPath>
+<clipPath id="clip7">
+  <path d="M 32.457031 16.785156 C 32.457031 24.34375 25.152344 30.464844 16.152344 30.464844 C 7.15625 30.464844 -0.148438 24.34375 -0.148438 16.785156 C -0.148438 9.226562 7.15625 3.105469 16.152344 3.105469 C 25.152344 3.105469 32.457031 9.226562 32.457031 16.785156 Z M 32.457031 16.785156 "/>
+</clipPath>
+</defs>
+<g id="surface2">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(96.078431%,96.078431%,96.078431%);fill-opacity:1;" d="M 0.46875 19.324219 C 2.945312 35.808594 27.621094 36.304688 31.347656 20.28125 C 35.183594 7.308594 21.289062 -3.296875 10.894531 0.953125 C 3.933594 2.960938 -1.691406 11.179688 0.46875 19.324219 Z M 0.46875 19.324219 "/>
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<use xlink:href="#surface13" mask="url(#mask0)"/>
+</g>
+</g>
+<g clip-path="url(#clip4)" clip-rule="nonzero">
+<g clip-path="url(#clip5)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(17.647059%,17.647059%,17.647059%);fill-opacity:1;" d="M 24.660156 9.648438 L 21.113281 9.648438 L 14.382812 15.597656 L 15.445312 16.191406 L 14.382812 16.785156 L 21.113281 23.925781 L 24.660156 23.925781 L 17.570312 16.191406 M 24.660156 9.648438 "/>
+</g>
+</g>
+<g clip-path="url(#clip6)" clip-rule="nonzero">
+<g clip-path="url(#clip7)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(12.156863%,32.941176%,81.568627%);fill-opacity:1;" d="M 7.648438 9.648438 L 11.191406 9.648438 L 18.28125 16.191406 L 11.191406 23.925781 L 7.648438 23.925781 L 14.738281 16.191406 M 7.648438 9.648438 "/>
+</g>
+</g>
+</g>
+</svg>

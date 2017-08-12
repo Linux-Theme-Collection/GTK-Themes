@@ -1,0 +1,16 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="0" y1="18.872" x2="0" y2="29.24" gradientTransform="matrix(1,0,0,1,-0.000000000000000444,0)">
+<stop offset="0" style="stop-color:rgb(100%,100%,100%);stop-opacity:0.4;"/>
+<stop offset="1" style="stop-color:rgb(100%,100%,100%);stop-opacity:0;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(39.215686%,58.431373%,92.941176%);fill-opacity:1;" d="M 2.800781 2.320312 C -9.8125 18.96875 24.902344 21.335938 13.761719 4.339844 C 11.222656 0.464844 6.144531 -2.089844 2.800781 2.320312 Z M 2.800781 2.320312 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.0509804;" d="M 6.574219 8.15625 L 9.609375 8.15625 L 9.609375 5.972656 L 13.597656 9.234375 L 9.609375 12.523438 L 9.609375 10.339844 L 6.574219 10.339844 L 6.574219 12.523438 L 2.585938 9.234375 L 6.574219 5.972656 Z M 6.574219 8.15625 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.14902;" d="M 6.304688 7.675781 L 9.34375 7.675781 L 9.34375 5.496094 L 13.332031 8.753906 L 9.34375 12.042969 L 9.34375 9.859375 L 6.304688 9.859375 L 6.304688 12.042969 L 2.316406 8.753906 L 6.304688 5.496094 Z M 6.304688 7.675781 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 6.117188 7.242188 L 9.535156 7.242188 L 9.535156 5.480469 L 12.953125 8.320312 L 9.535156 11.15625 L 9.535156 9.425781 L 6.117188 9.425781 L 6.117188 11.15625 L 2.695312 8.320312 L 6.117188 5.480469 Z M 6.117188 7.242188 "/>
+<path style="fill:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:url(#linear0);stroke-miterlimit:4;" d="M 18.316002 22.549754 L 29.320643 22.549754 L 29.320643 19.373355 L 35.820581 24.017162 L 29.320643 28.669916 L 29.320643 25.55615 L 18.316002 25.55615 L 18.316002 28.73255 L 11.816064 24.017162 L 18.316002 19.373355 Z M 18.316002 22.549754 " transform="matrix(0.379811,0,0,0.436569,-1.22225,-2.16875)"/>
+</g>
+</svg>

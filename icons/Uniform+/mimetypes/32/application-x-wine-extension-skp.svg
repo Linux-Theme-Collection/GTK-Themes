@@ -1,0 +1,26 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="32" height="32" style="fill:rgb(0%,0%,0%);fill-opacity:0.2;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect width="32" height="32"/>
+</clipPath>
+<g id="surface6" clip-path="url(#clip1)">
+<path style="fill:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 27.169695 16.095489 L 14.999106 17.642103 L 15.867264 19.56087 L 24.679884 18.255915 L 27.863129 21.537635 L 33.001094 20.638666 Z M 24.783626 21.89529 L 16.402355 23.321074 L 17.215912 25.467 L 21.775105 24.606697 L 22.949029 26.626961 L 27.775767 25.58783 Z M 22.03719 28.676223 L 17.892966 29.584859 L 18.690142 31.904779 L 23.161973 30.773818 Z M 22.03719 28.676223 " transform="matrix(0.715416,0,0,0.808217,-2.105598,-0.813343)"/>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(28.627451%,69.803922%,94.117647%);fill-opacity:1;" d="M 0.40625 19.664062 C 6.652344 49.652344 49.640625 17.457031 23.816406 2.214844 C 13.785156 -4.320312 -2.808594 4.238281 0.40625 19.664062 Z M 0.40625 19.664062 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.196078;" d="M 19.589844 8.988281 L 19.625 9.019531 L 19.707031 8.988281 Z M 20.652344 9.996094 L 26.480469 15.554688 L 26.480469 9.996094 Z M 20.652344 9.996094 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:0.392157;" d="M 19.589844 3.425781 L 26.480469 9.996094 L 20.652344 9.996094 C 20.136719 9.996094 19.589844 9.476562 19.589844 8.988281 L 19.589844 3.425781 "/>
+<use xlink:href="#surface6" mask="url(#mask0)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 17.332031 12.195312 L 8.625 13.445312 L 9.246094 14.996094 L 15.550781 13.941406 L 17.828125 16.59375 L 21.503906 15.867188 Z M 15.625 16.882812 L 9.628906 18.035156 L 10.210938 19.769531 L 13.472656 19.074219 L 14.3125 20.707031 L 17.765625 19.867188 Z M 13.660156 22.363281 L 10.695312 23.097656 L 11.265625 24.972656 L 14.464844 24.058594 Z M 13.660156 22.363281 "/>
+</g>
+</svg>

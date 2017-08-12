@@ -1,0 +1,23 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="-37.555" y1="0" x2="-25.701" y2="0" gradientTransform="matrix(0.748735,0,0,0.693312,31.564375,-271.94875)">
+<stop offset="0" style="stop-color:rgb(18.039216%,56.862745%,80%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(43.137255%,72.54902%,100%);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="-27.28" y1="407.16" x2="-27.338" y2="410.26" gradientTransform="matrix(0.748735,0,0,0.693312,31.564375,-271.94875)">
+<stop offset="0" style="stop-color:rgb(18.039216%,56.862745%,80%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(43.137255%,72.54902%,100%);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear2" gradientUnits="userSpaceOnUse" x1="-33.999" y1="0" x2="-29.573" y2="0" gradientTransform="matrix(0.748735,0,0,0.693312,31.564375,-271.94875)">
+<stop offset="0" style="stop-color:rgb(88.235294%,89.803922%,91.372549%);stop-opacity:0.74902;"/>
+<stop offset="1" style="stop-color:rgb(100%,100%,100%);stop-opacity:0.74902;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(39.215686%,58.431373%,92.941176%);fill-opacity:1;" d="M 14.4375 12.703125 C 22.4375 0.671875 -3.066406 -6.734375 0.308594 8.8125 C 1.75 15.242188 10.773438 19.140625 14.4375 12.703125 Z M 14.4375 12.703125 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 3.445312 4.664062 L 12.320312 4.664062 L 12.320312 10.335938 L 3.445312 10.335938 Z M 3.445312 4.664062 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear1);" d="M 9.996094 12.488281 L 12.320312 10.335938 L 9.996094 10.335938 Z M 9.996094 12.488281 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear2);" d="M 7.394531 7.789062 L 8.140625 7.789062 L 8.140625 7.101562 L 7.394531 7.101562 L 7.394531 7.789062 M 6.109375 7.789062 L 6.785156 7.789062 L 6.785156 7.101562 L 6.109375 7.101562 L 6.109375 6.535156 L 6.785156 6.535156 L 6.785156 5.597656 L 7.394531 5.597656 L 7.394531 6.535156 L 8.140625 6.535156 L 8.140625 5.597656 L 8.746094 5.597656 L 8.746094 6.535156 L 9.421875 6.535156 L 9.421875 7.101562 L 8.746094 7.101562 L 8.746094 7.789062 L 9.421875 7.789062 L 9.421875 8.351562 L 8.746094 8.351562 L 8.746094 9.292969 L 8.140625 9.292969 L 8.140625 8.351562 L 7.394531 8.351562 L 7.394531 9.292969 L 6.785156 9.292969 L 6.785156 8.351562 L 6.109375 8.351562 L 6.109375 7.789062 "/>
+</g>
+</svg>

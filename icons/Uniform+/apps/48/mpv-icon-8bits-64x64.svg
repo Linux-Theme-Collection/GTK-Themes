@@ -1,0 +1,23 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="-23.275" y1="-13.701" x2="55.34" y2="60.938" gradientTransform="matrix(0.479164,0,0,0.493337,17.25375,14.14125)">
+<stop offset="0" style="stop-color:rgb(66.666667%,0%,83.137255%);stop-opacity:1;"/>
+<stop offset="0.286" style="stop-color:rgb(37.254902%,73.72549%,82.745098%);stop-opacity:1;"/>
+<stop offset="0.318" style="stop-color:rgb(50.196078%,89.803922%,100%);stop-opacity:1;"/>
+<stop offset="0.609" style="stop-color:rgb(0%,53.333333%,66.666667%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(66.666667%,0%,83.137255%);stop-opacity:0;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="-17.276" y1="-74.1" x2="158.06" y2="73.39" gradientTransform="matrix(1,0,0,1,-0.000000000000007105,0)">
+<stop offset="0" style="stop-color:rgb(66.666667%,0%,83.137255%);stop-opacity:1;"/>
+<stop offset="0.099" style="stop-color:rgb(52.941176%,80.392157%,87.058824%);stop-opacity:1;"/>
+<stop offset="0.855" style="stop-color:rgb(0%,66.666667%,83.137255%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(66.666667%,0%,83.137255%);stop-opacity:0;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(67.843137%,84.705882%,90.196078%);fill-opacity:1;" d="M 0.703125 28.988281 C 4.417969 53.714844 41.429688 54.457031 47.019531 30.421875 C 52.777344 10.960938 31.933594 -4.945312 16.339844 1.429688 C 5.898438 4.441406 -2.535156 16.769531 0.703125 28.988281 Z M 0.703125 28.988281 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 30.554688 24.617188 L 19.195312 31.289062 L 19.261719 17.824219 Z M 30.554688 24.617188 "/>
+<path style="fill:none;stroke-width:8.368;stroke-linecap:round;stroke-linejoin:miter;stroke:url(#linear1);stroke-miterlimit:7;" d="M 141.973303 1.694719 C 141.973303 35.280723 111.086593 62.514882 72.986468 62.514882 C 34.886343 62.514882 3.999633 35.280723 3.999633 1.694719 C 3.999633 -31.891285 34.886343 -59.125445 72.986468 -59.125445 C 111.086593 -59.125445 141.973303 -31.891285 141.973303 1.694719 Z M 141.973303 1.694719 " transform="matrix(0.199823,0,0,0.233077,9.009375,24.01125)"/>
+</g>
+</svg>

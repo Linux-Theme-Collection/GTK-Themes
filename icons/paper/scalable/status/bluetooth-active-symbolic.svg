@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg7384" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" style="enable-background:new" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" height="16.02" width="16" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Paper Symbolic Icon Theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <title id="title8473">Paper Symbolic Icon Theme</title>
+ <defs id="defs7386">
+  <filter id="filter7554" style="color-interpolation-filters:sRGB">
+   <feBlend id="feBlend7556" in2="BackgroundImage" mode="darken"/>
+  </filter>
+ </defs>
+ <g id="layer9" transform="translate(-265 355.02)">
+  <path id="rect5886" style="fill:#555" d="m273.5-355c-3.047 0-5.5 2.676-5.5 6v4c0 3.324 2.453 6 5.5 6s5.5-2.676 5.5-6v-4c0-3.324-2.453-6-5.5-6zm-0.5 1.293 4.2402 4.2383-2.9394 2.4688 2.9394 2.4688-4.2402 4.2383v-5.6133l-2.4277 2.0391-0.64454-0.76562 2.8184-2.3672-2.8184-2.3672 0.64454-0.76562 2.4277 2.0391v-5.6133zm1 2.4141v3.2402l1.7598-1.4805-1.7598-1.7598zm0 5.3457v3.2402l1.7598-1.7598-1.7598-1.4805z"/>
+ </g>
+</svg>

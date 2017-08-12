@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg7384" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" style="enable-background:new" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" height="16" width="16" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Paper Symbolic Icon Theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <title id="title8473">Paper Symbolic Icon Theme</title>
+ <defs id="defs7386">
+  <filter id="filter7554" style="color-interpolation-filters:sRGB">
+   <feBlend id="feBlend7556" in2="BackgroundImage" mode="darken"/>
+  </filter>
+ </defs>
+ <g id="layer9" transform="translate(-445 395)">
+  <path id="path6258-4" style="enable-background:new;fill:#555" d="m455-387c-1.3117 0-2.4048 0.85843-2.8125 2.0312-1.2308 0.15597-2.1875 1.1956-2.1875 2.4688 0 1.3807 1.1193 2.5 2.5 2.5h2.5 2.5c1.3807 0 2.5-1.1193 2.5-2.5 0-1.2732-0.95667-2.3128-2.1875-2.4688-0.4-1.17-1.5-2.03-2.81-2.03z"/>
+  <path id="path6020" style="fill:#555" d="m453-395c-2.0711 0-3.8347 1.2679-4.5938 3.0625-1.9278 0.2866-3.4062 1.9299-3.4062 3.9375 0 0.73232 0.2111 1.4096 0.55469 2 0.00073 0.001 0.00095 0.003 0.002 0.004 0.0865 0.14818 0.18099 0.28856 0.28516 0.42382 0.17958 0.23321 0.38355 0.44245 0.60937 0.63086 0.0541 0.0457 0.10755 0.0919 0.16406 0.13477 0.0929 0.0695 0.18628 0.13591 0.28516 0.19726 0.1378 0.0868 0.28122 0.1648 0.42969 0.23438 0.0672 0.031 0.13397 0.0605 0.20312 0.0879 0.18352 0.0737 0.37427 0.13205 0.57032 0.17773 0.0596 0.0137 0.11905 0.0261 0.17968 0.0371 0.23315 0.043 0.47071 0.0723 0.7168 0.0723h0.39258c0.44392-0.79556 1.2231-1.3864 2.1289-1.6758 0.64564-1.3236 1.9017-2.3243 3.4785-2.3243 1.5767 0 2.8328 1.0008 3.4785 2.3242 0.50332 0.16082 0.96502 0.41658 1.3555 0.74609 0.15647-0.14446 0.30871-0.29449 0.4375-0.46484 0.0274-0.0354 0.056-0.069 0.082-0.10547 0.11085-0.15871 0.21276-0.3237 0.29687-0.5 0.22021-0.45307 0.34961-0.95868 0.34961-1.5 0-1.7965-1.3508-3.2687-3.0938-3.4688-0.45-2.29-2.47-4.03-4.9-4.03zm2 9c-0.87538 0-1.5918 0.56727-1.8672 1.3594l-0.20508 0.58593-0.43164 0.0547h5.0039l-0.42773-0.0547-0.20508-0.58593c-0.27-0.79-0.98-1.36-1.86-1.36z"/>
+ </g>
+</svg>

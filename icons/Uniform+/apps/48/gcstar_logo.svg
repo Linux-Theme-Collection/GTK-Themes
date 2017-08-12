@@ -1,0 +1,29 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<image id="image9" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAeUlEQVRoge3PPQ2AMAAFYf6aqsIJWhCCBRY2NKAAHSSsbTBA0gkOkvvmN7yrxxCG6oPmlM4956W0a9448yQDaAbQDKAZQDOAZgDNAJoBNANoBtAMoBlAM4BmAM0AmgE0A2gG0Ayg/T6g22Jc6RN3prZN/XHQNySp4AKsDg2gWRLnYAAAAABJRU5ErkJggg=="/>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<use xlink:href="#image9"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect width="48" height="48"/>
+</clipPath>
+<g id="surface11" clip-path="url(#clip1)">
+<path style="fill-rule:evenodd;fill:rgb(100%,68.235294%,9.803922%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,68.235294%,9.803922%);stroke-opacity:1;stroke-miterlimit:4;" d="M 244.639196 134.258973 C 244.639196 176.394908 216.213931 210.577054 181.150532 210.577054 C 146.087132 210.577054 117.661868 176.412312 117.661868 134.258973 C 117.661868 92.123039 146.087132 57.958298 181.150532 57.958298 C 216.213931 57.958298 244.639196 92.105635 244.639196 134.258973 Z M 244.639196 134.258973 " transform="matrix(0.233617,0,0,0.224441,-18.2925,-6.051187)"/>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,0%);fill-opacity:1;" d="M 24.605469 19.105469 C 24.605469 19.179688 24.605469 19.253906 24.609375 19.328125 L 25.113281 19.105469 Z M 24.605469 19.105469 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,0%);fill-opacity:1;" d="M 35.996094 11.476562 C 35.996094 11.480469 35.996094 11.484375 35.996094 11.488281 L 37.214844 11.476562 Z M 35.996094 11.476562 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,74.901961%,100%);fill-opacity:1;" d="M 2.585938 14.105469 C 15.695312 -12.496094 54.601562 2.328125 47.171875 29.308594 C 40.171875 54.730469 4.632812 54.003906 0.488281 29.359375 C -0.375 24.214844 0.179688 18.988281 2.585938 14.105469 Z M 2.585938 14.105469 "/>
+<path style="fill-rule:evenodd;fill:rgb(100%,68.235294%,9.803922%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,68.235294%,9.803922%);stroke-opacity:1;stroke-miterlimit:4;" d="M 244.639196 134.258973 C 244.639196 176.394908 216.213931 210.577054 181.150532 210.577054 C 146.087132 210.577054 117.661868 176.412312 117.661868 134.258973 C 117.661868 92.123039 146.087132 57.958298 181.150532 57.958298 C 216.213931 57.958298 244.639196 92.105635 244.639196 134.258973 Z M 244.639196 134.258973 " transform="matrix(0.233617,0,0,0.224441,-18.2925,-6.051187)"/>
+<use xlink:href="#surface11" mask="url(#mask0)"/>
+<path style="fill-rule:evenodd;fill:rgb(0%,74.901961%,100%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,74.901961%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 244.607753 134.278679 C 244.607753 176.426663 216.209799 210.552162 181.125745 210.552162 C 146.113584 210.552162 117.643736 176.426663 117.643736 134.278679 C 117.643736 92.130696 146.113584 57.945328 181.125745 57.945328 C 216.209799 57.945328 244.607753 92.130696 244.607753 134.278679 Z M 244.607753 134.278679 " transform="matrix(0.0543338,0,0,0.0652463,21.5025,18.160688)"/>
+<path style="fill-rule:evenodd;fill:rgb(0%,74.901961%,100%);fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,74.901961%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 244.668144 134.2691 C 244.668144 176.417084 216.198296 210.542582 181.114242 210.542582 C 146.102081 210.542582 117.632234 176.417084 117.632234 134.2691 C 117.632234 92.121116 146.102081 57.935749 181.114242 57.935749 C 216.198296 57.935749 244.668144 92.121116 244.668144 134.2691 Z M 244.668144 134.2691 " transform="matrix(0.0543338,0,0,0.0652463,10.8,18.380063)"/>
+</g>
+</svg>

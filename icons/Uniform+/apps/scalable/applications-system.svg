@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="256" height="256" id="svg10914" version="1.1" inkscape:version="0.48.4 r9939" sodipodi:docname="processor.svg">
+   <defs id="defs10916">
+      <radialGradient inkscape:collect="always" xlink:href="#linearGradient9879-4" id="radialGradient220922" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,1.1280507,0,-15.592641)" cx="-170.8718" cy="127.7508" fx="-170.8718" fy="127.7508" r="12.49998" />
+      <linearGradient inkscape:collect="always" id="linearGradient9879-4">
+         <stop style="stop-color:#ffffff;stop-opacity:1" offset="0" id="stop9881-6" />
+         <stop style="stop-color:#e4e4e1;stop-opacity:1" offset="1" id="stop9883-2" />
+      </linearGradient>
+   </defs>
+   <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.7" inkscape:cx="79.853909" inkscape:cy="-17.414523" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" inkscape:showpageshadow="false" inkscape:snap-page="true" inkscape:snap-bbox="true" inkscape:window-width="1366" inkscape:window-height="741" inkscape:window-x="0" inkscape:window-y="27" inkscape:window-maximized="1" inkscape:object-nodes="true" inkscape:bbox-nodes="true" inkscape:bbox-paths="true" inkscape:snap-midpoints="true" inkscape:snap-object-midpoints="true" />
+   <metadata id="metadata10919">
+      <rdf:RDF>
+         <cc:Work rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+            <dc:title></dc:title>
+         </cc:Work>
+      </rdf:RDF>
+   </metadata>
+   <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-796.36218)">
+      <path style="color:black;fill:#73c7ca;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" d="M 229.62664,992.19588 C 321.67699,861.26283 151.67875,728.59918 43.239794,835.28142 -58.929521,935.79549 35.79079,1091.9595 162.92826,1043.144 c 26.52578,-10.1848 49.80187,-26.9143 66.69838,-50.94812 z" id="path32622-5" inkscape:connector-curvature="0" sodipodi:nodetypes="ssss" />
+      <rect y="866.68848" x="68.090263" height="119.81947" width="119.81947" id="rect7112" style="color:black;fill:#b6e3e4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:16;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect style="color:black;fill:white;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:16;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect7110" width="108.08632" height="108.08632" x="73.956841" y="872.55505" rx="12.050014" ry="12.050014" />
+      <rect style="color:black;fill:#b6e3e4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:16;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect7114" width="80.714287" height="8.5714283" x="87.642853" y="894.14789" rx="4.2857141" ry="4.2857141" />
+      <rect ry="4.2857141" rx="4.2857141" y="913.34076" x="87.642853" height="8.5714283" width="80.714287" id="rect7135" style="color:black;fill:#b7c2e3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:16;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect style="color:black;fill:#b6e3e4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:16;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" id="rect7137" width="80.714287" height="8.5714283" x="87.642853" y="913.34076" rx="4.2857141" ry="4.2857141" />
+   </g>
+</svg>

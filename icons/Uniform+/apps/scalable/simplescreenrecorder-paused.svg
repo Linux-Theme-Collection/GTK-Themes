@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg10914"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="simplescreenrecorder-recording.svg">
+  <defs
+     id="defs10916">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8785"
+       is_visible="true" />
+    <linearGradient
+       gradientTransform="translate(56.880463,5.6152085)"
+       gradientUnits="userSpaceOnUse"
+       y2="-1009.9762"
+       x2="-35.844036"
+       y1="-1057.9852"
+       x1="-35.844036"
+       id="linearGradient843"
+       xlink:href="#linearGradient872"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient872">
+      <stop
+         id="stop874"
+         offset="0"
+         style="stop-color:#e3ebed;stop-opacity:0.99607843" />
+      <stop
+         id="stop876"
+         offset="1"
+         style="stop-color:#f4f8f9;stop-opacity:0.99705881" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.88"
+     inkscape:cx="122.05211"
+     inkscape:cy="121.79746"
+     inkscape:document-units="px"
+     inkscape:current-layer="g8839"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:snap-page="true"
+     inkscape:snap-bbox="true"
+     inkscape:window-width="688"
+     inkscape:window-height="457"
+     inkscape:window-x="576"
+     inkscape:window-y="514"
+     inkscape:window-maximized="0"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata10919">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-796.36218)">
+    <g
+       id="g8839"
+       transform="translate(-4.8692751e-5,-2.5394058e-6)">
+      <path
+         style="color:#000000;fill:#e6e6fa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="M 52.774476,1027.3872 C 245.23419,1155.3404 363.77199,747.30005 114.97679,801.31975 12.157706,824.33685 -50.238594,968.70975 52.774476,1027.3872 z"
+         id="path6974-8-4"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="matrix(1.6805833,0,0,1.4585333,48.877507,922.24856)"
+         inkscape:label="folder"
+         id="folderLayer">
+        <g
+           transform="translate(0.60589504,1.2835312)"
+           id="g3041">
+          <rect
+             style="color:#000000;fill:#ffcc00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect3037"
+             width="20.769487"
+             height="61.956436"
+             x="19.009361"
+             y="15.738251"
+             transform="translate(0,-48)" />
+          <rect
+             y="-32.261749"
+             x="55.009361"
+             height="61.956436"
+             width="20.769487"
+             id="rect3039"
+             style="color:#000000;fill:#ffcc00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

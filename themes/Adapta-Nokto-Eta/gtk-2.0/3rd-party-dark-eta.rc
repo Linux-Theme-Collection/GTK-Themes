@@ -1,7 +1,13 @@
 #
 # XFce4
 #
+
+style "xfce-heading" {
+  base[NORMAL] = @bg_color
+}
+
 style "theme-panel" {
+  GtkButton::inner-border = { 0, 0, 0, 0 }
   xthickness = 2
   ythickness = 0
 
@@ -32,6 +38,7 @@ style "panelbar" {
 }
 
 style "panelbuttons" {
+  GtkButton::inner-border = { 0, 0, 0, 0 }
   xthickness = 2
   ythickness = 0
 
@@ -40,6 +47,7 @@ style "panelbuttons" {
   fg[ACTIVE] = @selected_fg_color
   fg[SELECTED] = @selected_fg_color
   fg[INSENSITIVE] = mix(0.4, @selected_fg_color, @bg_color)
+  bg[ACTIVE] = mix(0.1, @inverted_fg_color, @panel_bg_color)
 
   font_name = "Bold"
 
@@ -171,28 +179,28 @@ style "xfwm-tabwin-button" {
     image {
       function = BOX
       state    = NORMAL
-      file     = "Xfce/flat-button.svg"
+      file     = "Others/null.svg"
       border   = { 5, 5, 5, 5 }
       stretch  = TRUE
     }
     image {
       function = BOX
       state    = PRELIGHT
-      file     = "Xfce/flat-button-hover.svg"
+      file     = "Buttons/accent-flat-button-hover.png"
       border   = { 5, 5, 5, 5 }
       stretch  = TRUE
     }
     image {
       function = BOX
       state    = ACTIVE
-      file     = "Xfce/flat-button-active.svg"
+      file     = "Buttons/accent-flat-button-active.png"
       border   = { 5, 5, 5, 5 }
       stretch  = TRUE
     }
     image {
       function = BOX
       state    = SELECTED
-      file     = "Xfce/flat-button-hover.svg"
+      file     = "Buttons/accent-flat-button-hover.png"
       border   = { 5, 5, 5, 5 }
       stretch  = TRUE
     }
@@ -215,6 +223,7 @@ style "xfsm-label" {
   fg[NORMAL]   = mix(0.4, @fg_color, @bg_color)
 }
 
+widget_class "*XfceHeading*"                          style "xfce-heading"
 widget "*tasklist*"                                   style "panelbuttons"
 widget_class "*Xfce*Panel*.GtkToggleButton"           style "panelbuttons"
 widget_class "*Xfce*NetkTasklist*GtkToggleButton"     style "panelbuttons"
@@ -224,6 +233,7 @@ widget_class "*Xfce*Panel*Button*"                    style "panelbuttons"
 widget_class "*<XfceArrowButton>"                     style "panelbuttons"
 widget_class "*<XfceActionsPlugin>*"                  style "panelbuttons"
 widget_class "*XfcePanelPlugin.GtkButton"             style "panelbuttons"
+widget_class "*XfcePanelPlugin.GtkToggleButton"       style "panelbuttons"
 widget "*dict*Applet*"                                style "panelbuttons"
 widget_class "*Xfce*NetkTasklist*GtkToggleButton"     style "panelbuttons"
 widget_class "*Tasklist*"                             style:highest "panelbuttons"
@@ -345,13 +355,6 @@ widget_class "*ThunarTreeView*"        style "thunar_side_pane"
 style "eclipse-tooltips" {
   xthickness = 4
   ythickness = 4
-
-  bg[NORMAL] = @tooltip_bg_color
-  fg[NORMAL] = @tooltip_fg_color
-  bg[SELECTED] = @tooltip_bg_color
-  # bg[NORMAL] = @base_color
-  # fg[NORMAL] = @text_color
-  # bg[SELECTED] = @base_color
 }
 
 style "null" {
@@ -396,10 +399,6 @@ style "chrome_menu_item" {
 class "ChromeGtkFrame"                               style "chrome-gtk-frame"
 widget_class "*Chrom*Button*"                        style "flat_button"
 widget_class "*<GtkCustomMenu>*<GtkCustomMenuItem>*" style "chrome_menu_item"
-
-# We use this weird selector to target an offscreen entry as created
-# by Chrome/Chromium to derive the style for its toolbar
-widget_class "<GtkEntry>" style "standalone_entry"
 
 
 #
@@ -547,5 +546,33 @@ widget_class "*<FmMainWin>*<FmPathBar>*<GtkButton>*<GtkLabel>"    style "locatio
 # (He)XChat
 #
 
-widget "*xchat-inputbox"    style "entry"
-class  "SexySpellEntry"     style:highest "entry"
+style "chat-entry" {
+  xthickness = 3
+  ythickness = 3
+
+  # enforce white backgrounds
+  bg[NORMAL] = @solid_white
+  bg[PRELIGHT] = @solid_white
+  bg[ACTIVE] = @solid_white
+  bg[SELECTED] = @selected_bg_color
+
+  engine "pixmap" {
+    image {
+      function = SHADOW
+      detail   = "entry"
+      file     = "Shadows/frame.png"
+      border   = { 1, 1, 1, 1 }
+      stretch  = TRUE
+    }
+    image {
+      function = FLAT_BOX
+      detail   = "entry_bg"
+      file     = "Others/null.svg"
+      border   = { 0, 0, 0, 0 }
+      stretch  = TRUE
+    }
+  }
+}
+
+widget "*xchat-inputbox" style "chat-entry"
+class "SexySpellEntry"   style:highest "chat-entry"

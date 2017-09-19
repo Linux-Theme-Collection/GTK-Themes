@@ -1,1 +1,0 @@
-align-left.svg

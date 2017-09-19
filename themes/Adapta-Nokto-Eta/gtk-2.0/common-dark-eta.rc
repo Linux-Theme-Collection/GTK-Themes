@@ -4,13 +4,18 @@
 gtk-auto-mnemonics = 1
 gtk-primary-button-warps-slider = 1
 
-style "default" {
+style "default" = "default_colors" {
   xthickness = 0
   ythickness = 0
 
   #
   # Style Properties
   #
+  GnomeHRef::link_color = @link_color
+  GtkHTML::link-color = @link_color
+  GtkHTML::vlink-color = @visited_link_color
+  GtkIMHtml::hyperlink-color = @link_color
+  GtkIMHtml::hyperlink-visited-color = @visited_link_color
   GtkWidget::link-color = @link_color
   GtkWidget::visited-link-color = @visited_link_color
   GtkWidget::focus-line-width = 1
@@ -32,6 +37,10 @@ style "default" {
   GtkButton::child-displacement-y = 0
   GtkButton::default-border = { 0, 0, 0, 0 }
   GtkButton::default-outside_border = { 0, 0, 0, 0 }
+  GtkButton::inner-border = { 2, 2, 2, 2 }
+
+  GtkEntry::state-hint   = 1
+  GtkEntry::inner-border = { 4, 4, 4, 4 }
 
   GtkScrollbar::trough-border = 0
   GtkRange::trough-border = 0
@@ -651,10 +660,17 @@ style "progressbar" {
   }
 }
 
+style "inline_progress" {
+  # do not set normal state background
+  # bg[NORMAL] = mix(0.2, @accent_color, @base_color)
+  bg[SELECTED] = mix(0.6, @accent_color, @base_color) # progress
+}
+
 style "range" {
   engine "pixmap" {
     image {
       function    = BOX
+      state       = NORMAL
       detail      = "trough-upper"
       file        = "Range/h-scale-trough-dark.png"
       border      = { 8, 8, 0, 0 }
@@ -663,6 +679,43 @@ style "range" {
     }
     image {
       function    = BOX
+      state       = NORMAL
+      detail      = "trough-lower"
+      file        = "Range/h-scale-trough-active.png"
+      border      = { 8, 8, 0, 0 }
+      stretch     = TRUE
+      orientation = HORIZONTAL
+    }
+    image {
+      function    = BOX
+      state       = PRELIGHT
+      detail      = "trough-upper"
+      file        = "Range/h-scale-trough-dark.png"
+      border      = { 8, 8, 0, 0 }
+      stretch     = TRUE
+      orientation = HORIZONTAL
+    }
+    image {
+      function    = BOX
+      state       = PRELIGHT
+      detail      = "trough-lower"
+      file        = "Range/h-scale-trough-active.png"
+      border      = { 8, 8, 0, 0 }
+      stretch     = TRUE
+      orientation = HORIZONTAL
+    }
+    image {
+      function    = BOX
+      state       = ACTIVE
+      detail      = "trough-upper"
+      file        = "Range/h-scale-trough-dark.png"
+      border      = { 8, 8, 0, 0 }
+      stretch     = TRUE
+      orientation = HORIZONTAL
+    }
+    image {
+      function    = BOX
+      state       = ACTIVE
       detail      = "trough-lower"
       file        = "Range/h-scale-trough-active.png"
       border      = { 8, 8, 0, 0 }
@@ -689,6 +742,7 @@ style "range" {
     }
     image {
       function    = BOX
+      state       = NORMAL
       detail      = "trough-upper"
       file        = "Range/v-scale-trough-dark.png"
       border      = { 0, 0, 8, 8 }
@@ -697,6 +751,43 @@ style "range" {
     }
     image {
       function    = BOX
+      state       = NORMAL
+      detail      = "trough-lower"
+      file        = "Range/v-scale-trough-active.png"
+      border      = { 0, 0, 8, 8 }
+      stretch     = TRUE
+      orientation = VERTICAL
+    }
+    image {
+      function    = BOX
+      state       = PRELIGHT
+      detail      = "trough-upper"
+      file        = "Range/v-scale-trough-dark.png"
+      border      = { 0, 0, 8, 8 }
+      stretch     = TRUE
+      orientation = VERTICAL
+    }
+    image {
+      function    = BOX
+      state       = PRELIGHT
+      detail      = "trough-lower"
+      file        = "Range/v-scale-trough-active.png"
+      border      = { 0, 0, 8, 8 }
+      stretch     = TRUE
+      orientation = VERTICAL
+    }
+    image {
+      function    = BOX
+      state       = ACTIVE
+      detail      = "trough-upper"
+      file        = "Range/v-scale-trough-dark.png"
+      border      = { 0, 0, 8, 8 }
+      stretch     = TRUE
+      orientation = VERTICAL
+    }
+    image {
+      function    = BOX
+      state       = ACTIVE
       detail      = "trough-lower"
       file        = "Range/v-scale-trough-active.png"
       border      = { 0, 0, 8, 8 }
@@ -893,8 +984,12 @@ style "scrollbar" {
 }
 
 style "entry" {
-  xthickness = 3
-  ythickness = 3
+  xthickness = 4
+  ythickness = 4
+
+  base[NORMAL] = @light_color
+  base[ACTIVE] = @selected_bg_color
+  base[INSENSITIVE] = @light_color
 
   engine "pixmap" {
     image {
@@ -903,15 +998,16 @@ style "entry" {
       state    = NORMAL
       shadow   = IN
       file     = "Entry/entry-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
       function = SHADOW
       detail   = "entry"
       state    = ACTIVE
+      shadow   = IN
       file     = "Entry/entry-active-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
@@ -920,7 +1016,7 @@ style "entry" {
       state    = INSENSITIVE
       shadow   = IN
       file     = "Entry/entry-insensitive-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
@@ -933,56 +1029,33 @@ style "entry" {
       function        = FLAT_BOX
       detail          = "entry_bg"
       state           = ACTIVE
-      file            = "Entry/bg-dark.png"
+      file            = "Entry/bg-active-dark.png"
     }
     image {
       function        = FLAT_BOX
       detail          = "entry_bg"
       state           = INSENSITIVE
-      file            = "Entry/bg-dark.png"
+      file            = "Entry/bg-insensitive-dark.png"
     }
   }
 }
 
-style "notebook_entry" {
-  bg[NORMAL] = @bg_color
-  bg[ACTIVE] = @bg_color
-  bg[INSENSITIVE] = @bg_color
-
-  engine "pixmap" {
-    image {
-      function = SHADOW
-      detail   = "entry"
-      state    = NORMAL
-      shadow   = IN
-      file     = "Entry/base_entry-dark.png"
-      border   = { 3, 3, 3, 3 }
-      stretch  = TRUE
-    }
-    image {
-      function = SHADOW
-      detail   = "entry"
-      state    = ACTIVE
-      file     = "Entry/base_entry-active-dark.png"
-      border   = { 3, 3, 3, 3 }
-      stretch  = TRUE
-    }
-    image {
-      function = SHADOW
-      detail   = "entry"
-      state    = INSENSITIVE
-      shadow   = IN
-      file     = "Entry/base_entry-insensitive-dark.png"
-      border   = { 3, 3, 3, 3 }
-      stretch  = TRUE
-    }
-  }
+style "notebook_entry" = "entry" {
+  base[NORMAL] = @light_color
+  base[ACTIVE] = @selected_bg_color
+  base[INSENSITIVE] = @light_color
 }
 
 style "button" {
   xthickness = 4
   ythickness = 4
 
+  bg[NORMAL] = @bg_color
+  bg[ACTIVE] = @bg_color
+  bg[INSENSITIVE] = @bg_color
+  base[NORMAL] = @bg_color
+  base[ACTIVE] = @bg_color
+  base[INSENSITIVE] = @bg_color
   fg[NORMAL] = mix(0.75, @fg_color, @bg_color)
   fg[PRELIGHT] = @fg_color
   fg[ACTIVE] = @selected_fg_color
@@ -993,7 +1066,7 @@ style "button" {
       function = BOX
       state    = NORMAL
       file     = "Buttons/button-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
@@ -1001,7 +1074,7 @@ style "button" {
       state    = PRELIGHT
       shadow   = OUT
       file     = "Buttons/button-hover-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
@@ -1009,14 +1082,14 @@ style "button" {
       state    = INSENSITIVE
       shadow   = OUT
       file     = "Buttons/button-insensitive-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
       function = BOX
       state    = ACTIVE
       file     = "Buttons/button-active-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
@@ -1024,7 +1097,7 @@ style "button" {
       state    = PRELIGHT
       shadow   = IN
       file     = "Buttons/button-active-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
@@ -1032,7 +1105,7 @@ style "button" {
       state    = INSENSITIVE
       shadow   = IN
       file     = "Buttons/button-insensitive-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
   }
@@ -1055,6 +1128,7 @@ style "misc_button_label" {
 }
 
 style "flat_button" {
+  GtkButton::inner-border = { 1, 1, 1, 1 }
   xthickness = 4
   ythickness = 4
 
@@ -1068,7 +1142,7 @@ style "flat_button" {
       function = BOX
       state    = NORMAL
       file     = "Others/null.svg"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
@@ -1076,7 +1150,7 @@ style "flat_button" {
       state    = PRELIGHT
       shadow   = OUT
       file     = "Buttons/flat-button-hover-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
@@ -1084,14 +1158,14 @@ style "flat_button" {
       state    = INSENSITIVE
       shadow   = OUT
       file     = "Others/null.svg"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
       function = BOX
       state    = ACTIVE
       file     = "Buttons/flat-button-active-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
@@ -1099,7 +1173,7 @@ style "flat_button" {
       state    = PRELIGHT
       shadow   = IN
       file     = "Buttons/flat-button-hover-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
     }
     image {
@@ -1107,8 +1181,16 @@ style "flat_button" {
       state    = INSENSITIVE
       shadow   = IN
       file     = "Buttons/button-insensitive-dark.png"
-      border   = { 3, 3, 3, 3 }
+      border   = { 4, 4, 4, 4 }
       stretch  = TRUE
+    }
+  }
+}
+
+style "link_button" {
+  engine "pixmap" {
+    image {
+      function = BOX
     }
   }
 }
@@ -1180,13 +1262,17 @@ style "button_separator" {
 }
 
 style "combobox_button" {
-  xthickness = 3
-  ythickness = 3
+  xthickness = 4
+  ythickness = 4
 }
 
 style "combobox_entry" {
-  xthickness = 3
-  ythickness = 3
+  xthickness = 4
+  ythickness = 4
+
+  base[NORMAL] = @light_color
+  base[ACTIVE] = @selected_bg_color
+  base[INSENSITIVE] = @light_color
 
   engine "pixmap" {
     # LTR version
@@ -1204,6 +1290,7 @@ style "combobox_entry" {
       function  = SHADOW
       detail    = "entry"
       state     = ACTIVE
+      shadow    = IN
       file      = "Entry/ltr-entry-active-dark.png"
       border    = { 4, 4, 4, 4 }
       stretch   = TRUE
@@ -1235,6 +1322,7 @@ style "combobox_entry" {
       function  = SHADOW
       detail    = "entry"
       state     = ACTIVE
+      shadow    = IN
       file      = "Entry/rtl-entry-active-dark.png"
       border    = { 4, 4, 4, 4 }
       stretch   = TRUE
@@ -1254,6 +1342,10 @@ style "combobox_entry" {
 }
 
 style "notebook_combobox_entry" {
+  base[NORMAL] = @light_color
+  base[ACTIVE] = @selected_bg_color
+  base[INSENSITIVE] = @light_color
+
   engine "pixmap" {
     # LTR version
     image {
@@ -1261,8 +1353,8 @@ style "notebook_combobox_entry" {
       detail    = "entry"
       state     = NORMAL
       shadow    = IN
-      file      = "Entry/ltr-base_entry-dark.png"
-      border    = { 3, 0, 3, 3 }
+      file      = "Entry/ltr-entry-dark.png"
+      border    = { 4, 0, 4, 4 }
       stretch   = TRUE
       direction = LTR
     }
@@ -1270,8 +1362,9 @@ style "notebook_combobox_entry" {
       function  = SHADOW
       detail    = "entry"
       state     = ACTIVE
-      file      = "Entry/ltr-base_entry-active-dark.png"
-      border    = { 3, 0, 3, 3 }
+      shadow    = IN
+      file      = "Entry/ltr-entry-active-dark.png"
+      border    = { 4, 0, 4, 4 }
       stretch   = TRUE
       direction = LTR
     }
@@ -1280,8 +1373,8 @@ style "notebook_combobox_entry" {
       detail    = "entry"
       state     = INSENSITIVE
       shadow    = IN
-      file      = "Entry/ltr-base_entry-insensitive-dark.png"
-      border    = { 3, 0, 3, 3 }
+      file      = "Entry/ltr-entry-insensitive-dark.png"
+      border    = { 4, 0, 4, 4 }
       stretch   = TRUE
       direction = LTR
     }
@@ -1292,8 +1385,8 @@ style "notebook_combobox_entry" {
       detail    = "entry"
       state     = NORMAL
       shadow    = IN
-      file      = "Entry/rtl-base_entry-dark.png"
-      border    = { 0, 3, 3, 3 }
+      file      = "Entry/rtl-entry-dark.png"
+      border    = { 0, 4, 4, 4 }
       stretch   = TRUE
       direction = RTL
     }
@@ -1301,8 +1394,9 @@ style "notebook_combobox_entry" {
       function  = SHADOW
       detail    = "entry"
       state     = ACTIVE
-      file      = "Entry/rtl-base_entry-active-dark.png"
-      border    = { 0, 3, 3, 3 }
+      shadow    = IN
+      file      = "Entry/rtl-entry-active-dark.png"
+      border    = { 0, 4, 4, 4 }
       stretch   = TRUE
       direction = RTL
     }
@@ -1311,8 +1405,8 @@ style "notebook_combobox_entry" {
       detail    = "entry"
       state     = INSENSITIVE
       shadow    = IN
-      file      = "Entry/rtl-base_entry-insensitive-dark.png"
-      border    = { 0, 3, 3, 3 }
+      file      = "Entry/rtl-entry-insensitive-dark.png"
+      border    = { 0, 4, 4, 4 }
       stretch   = TRUE
       direction = RTL
     }
@@ -1320,8 +1414,8 @@ style "notebook_combobox_entry" {
 }
 
 style "combobox_entry_button" {
-  xthickness = 3
-  ythickness = 3
+  xthickness = 4
+  ythickness = 4
 
   fg[ACTIVE] = @text_color
 
@@ -1331,7 +1425,7 @@ style "combobox_entry_button" {
       function  = BOX
       state     = NORMAL
       file      = "Buttons/ltr-button-dark.png"
-      border    = { 1, 3, 3, 3 }
+      border    = { 1, 4, 4, 4 }
       stretch   = TRUE
       direction = LTR
     }
@@ -1339,7 +1433,7 @@ style "combobox_entry_button" {
       function  = BOX
       state     = PRELIGHT
       file      = "Buttons/ltr-button-hover-dark.png"
-      border    = { 1, 3, 3, 3 }
+      border    = { 1, 4, 4, 4 }
       stretch   = TRUE
       direction = LTR
     }
@@ -1347,7 +1441,7 @@ style "combobox_entry_button" {
       function  = BOX
       state     = ACTIVE
       file      = "Buttons/ltr-button-active-dark.png"
-      border    = { 1, 3, 3, 3 }
+      border    = { 1, 4, 4, 4 }
       stretch   = TRUE
       direction = LTR
     }
@@ -1355,7 +1449,7 @@ style "combobox_entry_button" {
       function  = BOX
       state     = INSENSITIVE
       file      = "Buttons/ltr-button-insensitive-dark.png"
-      border    = { 1, 3, 3, 3 }
+      border    = { 1, 4, 4, 4 }
       stretch   = TRUE
       direction = LTR
     }
@@ -1365,7 +1459,7 @@ style "combobox_entry_button" {
       function  = BOX
       state     = NORMAL
       file      = "Buttons/rtl-button-dark.png"
-      border    = { 3, 1, 3, 3 }
+      border    = { 4, 1, 4, 4 }
       stretch   = TRUE
       direction = RTL
     }
@@ -1373,7 +1467,7 @@ style "combobox_entry_button" {
       function  = BOX
       state     = PRELIGHT
       file      = "Buttons/rtl-button-hover-dark.png"
-      border    = { 3, 1, 3, 3 }
+      border    = { 4, 1, 4, 4 }
       stretch   = TRUE
       direction = RTL
     }
@@ -1381,7 +1475,7 @@ style "combobox_entry_button" {
       function  = BOX
       state     = ACTIVE
       file      = "Buttons/rtl-button-active-dark.png"
-      border    = { 3, 1, 3, 3 }
+      border    = { 4, 1, 4, 4 }
       stretch   = TRUE
       direction = RTL
     }
@@ -1389,16 +1483,11 @@ style "combobox_entry_button" {
       function  = BOX
       state     = INSENSITIVE
       file      = "Buttons/rtl-button-insensitive-dark.png"
-      border    = { 3, 1, 3, 3 }
+      border    = { 4, 1, 4, 4 }
       stretch   = TRUE
       direction = RTL
     }
   }
-}
-
-style "combo_entry_button" {
-  xthickness = 4
-  ythickness = 4
 }
 
 style "spinbutton" {
@@ -1418,7 +1507,7 @@ style "spinbutton" {
       state           = NORMAL
       detail          = "spinbutton_up"
       file            = "Spin/ltr-up-dark.png"
-      border          = { 1, 3, 3, 0 }
+      border          = { 1, 4, 4, 0 }
       stretch         = TRUE
       overlay_file    = "Arrows/up-dark.png"
       overlay_stretch = FALSE
@@ -1429,7 +1518,7 @@ style "spinbutton" {
       state           = PRELIGHT
       detail          = "spinbutton_up"
       file            = "Spin/ltr-up-hover-dark.png"
-      border          = { 1, 3, 3, 0 }
+      border          = { 1, 4, 4, 0 }
       stretch         = TRUE
       overlay_file    = "Arrows/up-dark.png"
       overlay_stretch = FALSE
@@ -1440,7 +1529,7 @@ style "spinbutton" {
       state           = ACTIVE
       detail          = "spinbutton_up"
       file            = "Spin/ltr-up-active-dark.png"
-      border          = { 1, 3, 3, 0 }
+      border          = { 1, 4, 4, 0 }
       stretch         = TRUE
       overlay_file    = "Arrows/up-dark.png"
       overlay_stretch = FALSE
@@ -1451,7 +1540,7 @@ style "spinbutton" {
       state           = INSENSITIVE
       detail          = "spinbutton_up"
       file            = "Spin/ltr-up-insensitive-dark.png"
-      border          = { 1, 3, 3, 0 }
+      border          = { 1, 4, 4, 0 }
       stretch         = TRUE
       overlay_file    = "Arrows/up-insensitive-dark.png"
       overlay_stretch = FALSE
@@ -1464,7 +1553,7 @@ style "spinbutton" {
       state           = NORMAL
       detail          = "spinbutton_up"
       file            = "Spin/rtl-up-dark.png"
-      border          = { 3, 1, 3, 0 }
+      border          = { 4, 1, 4, 0 }
       stretch         = TRUE
       overlay_file    = "Arrows/up-dark.png"
       overlay_stretch = FALSE
@@ -1475,7 +1564,7 @@ style "spinbutton" {
       state           = PRELIGHT
       detail          = "spinbutton_up"
       file            = "Spin/rtl-up-hover-dark.png"
-      border          = { 3, 1, 3, 0 }
+      border          = { 4, 1, 4, 0 }
       stretch         = TRUE
       overlay_file    = "Arrows/up-dark.png"
       overlay_stretch = FALSE
@@ -1487,7 +1576,7 @@ style "spinbutton" {
       state           = ACTIVE
       detail          = "spinbutton_up"
       file            = "Spin/rtl-up-active-dark.png"
-      border          = { 3, 1, 3, 0 }
+      border          = { 4, 1, 4, 0 }
       stretch         = TRUE
       overlay_file    = "Arrows/up-dark.png"
       overlay_stretch = FALSE
@@ -1498,7 +1587,7 @@ style "spinbutton" {
       state           = INSENSITIVE
       detail          = "spinbutton_up"
       file            = "Spin/rtl-up-insensitive-dark.png"
-      border          = { 3, 1, 3, 0 }
+      border          = { 4, 1, 4, 0 }
       stretch         = TRUE
       overlay_file    = "Arrows/up-insensitive-dark.png"
       overlay_stretch = FALSE
@@ -1511,7 +1600,7 @@ style "spinbutton" {
       state           = NORMAL
       detail          = "spinbutton_down"
       file            = "Spin/ltr-down-dark.png"
-      border          = { 1, 3, 1, 3 }
+      border          = { 1, 4, 1, 4 }
       stretch         = TRUE
       overlay_file    = "Arrows/down-dark.png"
       overlay_stretch = FALSE
@@ -1522,7 +1611,7 @@ style "spinbutton" {
       state           = PRELIGHT
       detail          = "spinbutton_down"
       file            = "Spin/ltr-down-hover-dark.png"
-      border          = { 1, 3, 1, 3 }
+      border          = { 1, 4, 1, 4 }
       stretch         = TRUE
       overlay_file    = "Arrows/down-dark.png"
       overlay_stretch = FALSE
@@ -1533,7 +1622,7 @@ style "spinbutton" {
       state           = ACTIVE
       detail          = "spinbutton_down"
       file            = "Spin/ltr-down-active-dark.png"
-      border          = { 1, 3, 1, 3 }
+      border          = { 1, 4, 1, 4 }
       stretch         = TRUE
       overlay_file    = "Arrows/down-dark.png"
       overlay_stretch = FALSE
@@ -1544,7 +1633,7 @@ style "spinbutton" {
       state           = INSENSITIVE
       detail          = "spinbutton_down"
       file            = "Spin/ltr-down-insensitive-dark.png"
-      border          = { 1, 3, 1, 3 }
+      border          = { 1, 4, 1, 4 }
       stretch         = TRUE
       overlay_file    = "Arrows/down-insensitive-dark.png"
       overlay_stretch = FALSE
@@ -1557,7 +1646,7 @@ style "spinbutton" {
       state           = NORMAL
       detail          = "spinbutton_down"
       file            = "Spin/rtl-down-dark.png"
-      border          = { 3, 1, 1, 3 }
+      border          = { 4, 1, 1, 4 }
       stretch         = TRUE
       overlay_file    = "Arrows/down-dark.png"
       overlay_stretch = FALSE
@@ -1568,7 +1657,7 @@ style "spinbutton" {
       state           = PRELIGHT
       detail          = "spinbutton_down"
       file            = "Spin/rtl-down-hover-dark.png"
-      border          = { 3, 1, 1, 3 }
+      border          = { 4, 1, 1, 4 }
       stretch         = TRUE
       overlay_file    = "Arrows/down-dark.png"
       overlay_stretch = FALSE
@@ -1579,7 +1668,7 @@ style "spinbutton" {
       state           = ACTIVE
       detail          = "spinbutton_down"
       file            = "Spin/rtl-down-active-dark.png"
-      border          = { 3, 1, 1, 3 }
+      border          = { 4, 1, 1, 4 }
       stretch         = TRUE
       overlay_file    = "Arrows/down-dark.png"
       overlay_stretch = FALSE
@@ -1590,7 +1679,7 @@ style "spinbutton" {
       state           = INSENSITIVE
       detail          = "spinbutton_down"
       file            = "Spin/rtl-down-insensitive-dark.png"
-      border          = { 3, 1, 1, 3 }
+      border          = { 4, 1, 1, 4 }
       stretch         = TRUE
       overlay_file    = "Arrows/down-insensitive-dark.png"
       overlay_stretch = FALSE
@@ -1623,7 +1712,6 @@ style "standalone_entry" {
       function = SHADOW
       detail   = "entry"
       state    = NORMAL
-      shadow   = IN
       file     = "Others/null.svg"
       border   = { 0, 0, 0, 0 }
       stretch  = TRUE
@@ -1671,6 +1759,10 @@ style "menubar_item" {
   }
 }
 
+style "menubar_item_label" {
+  engine "murrine" { textstyle = 0 }
+}
+
 style "menu" {
   xthickness = 0
   ythickness = 0
@@ -1699,6 +1791,7 @@ style "menu_item" {
   # See https://bugs.freedesktop.org/show_bug.cgi?id=38038
   bg[SELECTED] = mix(0.9, @base_color, @fg_color)
   bg[PRELIGHT] = mix(0.9, @base_color, @fg_color)
+  fg[NORMAL] = mix(0.75, @fg_color, @bg_color)
   fg[PRELIGHT] = shade(1.04, @fg_color)
   fg[SELECTED] = shade(1.04, @fg_color)
   text[PRELIGHT] = shade(1.04, @fg_color)
@@ -1712,7 +1805,7 @@ style "menu_item" {
       recolorable     = TRUE
       state           = NORMAL
       shadow          = OUT
-      overlay_file    = "Others/null.svg"
+      overlay_file    = "Check-Radio/check-off-menuitem-dark.png"
       overlay_stretch = FALSE
     }
     image {
@@ -1720,7 +1813,7 @@ style "menu_item" {
       recolorable     = TRUE
       state           = PRELIGHT
       shadow          = OUT
-      overlay_file    = "Others/null.svg"
+      overlay_file    = "Check-Radio/check-off-hover-menuitem-dark.png"
       overlay_stretch = FALSE
     }
     image {
@@ -1728,7 +1821,7 @@ style "menu_item" {
       recolorable     = TRUE
       state           = ACTIVE
       shadow          = OUT
-      overlay_file    = "Others/null.svg"
+      overlay_file    = "Check-Radio/check-off-hover-menuitem-dark.png"
       overlay_stretch = FALSE
     }
     image {
@@ -1736,7 +1829,7 @@ style "menu_item" {
       recolorable     = TRUE
       state           = INSENSITIVE
       shadow          = OUT
-      overlay_file    = "Others/null.svg"
+      overlay_file    = "Check-Radio/check-off-insensitive-menuitem-dark.png"
       overlay_stretch = FALSE
     }
     image {
@@ -1777,28 +1870,28 @@ style "menu_item" {
       function        = OPTION
       state           = NORMAL
       shadow          = OUT
-      overlay_file    = "Others/null.svg"
+      overlay_file    = "Check-Radio/radio-off-menuitem-dark.png"
       overlay_stretch = FALSE
     }
     image {
       function        = OPTION
       state           = PRELIGHT
       shadow          = OUT
-      overlay_file    = "Others/null.svg"
+      overlay_file    = "Check-Radio/radio-off-hover-menuitem-dark.png"
       overlay_stretch = FALSE
     }
     image {
       function        = OPTION
       state           = ACTIVE
       shadow          = OUT
-      overlay_file    = "Others/null.svg"
+      overlay_file    = "Check-Radio/radio-off-hover-menuitem-dark.png"
       overlay_stretch = FALSE
     }
     image {
       function        = OPTION
       state           = INSENSITIVE
       shadow          = OUT
-      overlay_file    = "Others/null.svg"
+      overlay_file    = "Check-Radio/radio-off-insensitive-menuitem-dark.png"
       overlay_stretch = FALSE
     }
     image {
@@ -1866,7 +1959,15 @@ style "menu_item" {
   }
 }
 
-style "separator_menu_item"  {
+style "menu_item_label" {
+  fg[NORMAL] = mix(0.75, @fg_color, @bg_color)
+  fg[PRELIGHT] = shade(1.04, @fg_color)
+  fg[SELECTED] = shade(1.04, @fg_color)
+
+  engine "murrine" { textstyle = 0 }
+}
+
+style "separator_menu_item" {
   xthickness = 0
   ythickness = 1
 
@@ -2232,6 +2333,11 @@ style "base" {
   bg[INSENSITIVE] = @base_color
 }
 
+style "calendar" {
+  bg[NORMAL] = @secondary_dark_color
+  base[NORMAL] = @light_color
+}
+
 style "tooltips" {
   xthickness = 4
   ythickness = 4
@@ -2241,13 +2347,16 @@ style "tooltips" {
   bg[SELECTED] = @tooltip_bg_color
 }
 
-style "text" {
+style "text" = "default_colors" {
+  fg[NORMAL] = @fg_color # FIXME: VMWare needs this?
+
   engine "murrine" { textstyle = 0 }
 }
 
 class "GtkWidget"            style "default"
 class "GtkScrollbar"         style "scrollbar"
 class "GtkButton"            style "button"
+class "GtkLinkButton"        style "link_button"
 class "GtkEntry"             style "entry"
 class "GtkOldEditable"       style "entry"
 class "GtkSpinButton"        style "spinbutton"
@@ -2258,6 +2367,11 @@ class "GtkSeparatorMenuItem" style "separator_menu_item"
 class "GtkScrolledWindow"    style "scrolled_window"
 class "GtkFrame"             style "frame"
 class "GtkToolbar"           style "toolbar"
+class "GtkCalendar"          style "calendar"
+
+# Fixes insensitive text shadows
+widget_class "*<GtkLabel>"    style "text"
+widget_class "*<GtkCellView>" style "text"
 
 widget_class "*<GtkButton>*<GtkLabel>"               style "button_label"
 widget_class "*<GtkComboBox>*<GtkButton>*<GtkLabel>" style "misc_button_label"
@@ -2266,18 +2380,22 @@ widget_class "*<GtkFontButton>*<GtkLabel>"           style "misc_button_label"
 widget_class "*<GtkSpinButton>*<GtkLabel>"           style "misc_button_label"
 widget_class "*<GtkCheckButton>*<GtkLabel>"          style "misc_button_label"
 
-widget_class "*<GtkMenuBar>*"                    style "menubar"
-widget_class "*<GtkMenu>*"                       style "menu"
-widget_class "*<GtkMenuItem>*"                   style "menu_item"
-widget_class "*<GtkMenuBar>.<GtkMenuItem>*"      style "menubar_item"
-widget_class "*<GtkMenu>*<GtkSeparatorMenuItem>" style "separator_menu_item"
+widget_class "*<GtkMenuBar>*"                         style "menubar"
+widget_class "*<GtkMenu>*"                            style "menu"
+widget_class "*<GtkMenuItem>*"                        style "menu_item"
+widget_class "*<GtkMenuItem>*<GtkLabel>"              style "menu_item_label"
+widget_class "*<GtkMenuBar>.<GtkMenuItem>*"           style "menubar_item"
+widget_class "*<GtkMenuBar>.<GtkMenuItem>*<GtkLabel>" style "menubar_item_label"
+widget_class "*<GtkMenu>*<GtkSeparatorMenuItem>"      style "separator_menu_item"
 
 widget_class "*<GtkComboBox>*<GtkButton>"      style "combobox_button"
 widget_class "*<GtkComboBoxEntry>*<GtkEntry>"  style "combobox_entry"
 widget_class "*<GtkComboBoxEntry>*<GtkButton>" style "combobox_entry_button"
 widget_class "*<GtkCombo>*<GtkEntry>"          style "combobox_entry"
 widget_class "*<GtkCombo>*<GtkButton>"         style "combobox_entry_button"
-widget_class "*<GtkCombo>*<GtkButton>"         style "combo_entry_button"
+
+# A hack for inline-progress widget inside the GtkTreeView
+widget_class "*<GtkTreeView>"                                   style "inline_progress"
 
 widget_class "*HandleBox"                                       style "handlebox"
 widget_class "*<GtkTreeView>*<GtkButton>*"                      style "treeview_header"
@@ -2309,11 +2427,15 @@ widget_class "*<GtkPathBar>*<GtkButton>*<GtkLabel>" style "location_button_label
 
 # Entries in notebooks draw with notebook's base color, but not if there's
 # something else in the middle that draws gray again
-widget_class "*<GtkNotebook>*<GtkEntry>"               style "notebook_entry"
-widget_class "*<GtkNotebook>*<GtkEventBox>*<GtkEntry>" style "entry"
+widget_class "*<GtkNotebook>*<GtkEntry>"                          style "notebook_entry"
+widget_class "*<GtkNotebook>*<GtkEventBox>*<GtkEntry>"            style "entry"
 
 widget_class "*<GtkNotebook>*<GtkComboBoxEntry>*<GtkEntry>"               style "notebook_combobox_entry"
 widget_class "*<GtkNotebook>*<GtkEventBox>*<GtkComboBoxEntry>*<GtkEntry>" style "combobox_entry"
+
+# We use this weird selector to target an offscreen entry as created
+# by Chrome/Chromium to derive the style for its toolbar
+widget_class "<GtkEntry>" style "standalone_entry"
 
 # We also need to avoid changing fg color for the inactive notebook tab labels
 widget_class "*<GtkNotebook>.<GtkLabel>"                      style "notebook_tab_label"
@@ -2322,9 +2444,3 @@ widget_class "*<GtkNotebook>.<GtkWidget>.<GtkBox>.<GtkLabel>" style "notebook_ta
 
 # GTK tooltips
 widget "gtk-tooltip*" style "tooltips"
-
-# Fixes insensitive text shadows
-widget_class "*<GtkLabel>"                     style "text"
-widget_class "*<GtkComboBox>*<GtkCellLayout>"  style "text"
-widget_class "*<GtkNotebook>*<GtkLabel>"       style "text"
-widget_class "*<GtkNotebook>*<GtkCellLayout>"  style "text"

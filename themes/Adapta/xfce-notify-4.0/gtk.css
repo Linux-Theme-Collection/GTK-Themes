@@ -7,20 +7,40 @@
   66% { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0.1) 100%, transparent 0%), image(alpha(currentColor, 0.1)); }
   100% { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0) 100%, transparent 0%), image(alpha(currentColor, 0.1)); } }
 
-@keyframes list_ripple_effect { 0% { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0.05) 0%, transparent 0%), image(alpha(currentColor, 0.05)); }
-  50% { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0.05) 50%, transparent 0%), image(alpha(currentColor, 0.05)); } }
+@keyframes list_ripple_effect { 0% { background-image: radial-gradient(circle farthest-side at center, alpha(currentColor, 0.05) 0%, transparent 0%), image(alpha(currentColor, 0.05)); }
+  66% { background-image: radial-gradient(circle farthest-side at center, alpha(currentColor, 0.05) 100%, transparent 0%), image(alpha(currentColor, 0.05)); }
+  100% { background-image: radial-gradient(circle farthest-side at center, alpha(currentColor, 0) 100%, transparent 0%), image(alpha(currentColor, 0.05)); } }
 
 #XfceNotifyWindow buttonbox button { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0) 100%, transparent 0%), image(alpha(currentColor, 0)); box-shadow: none; transition-timing-function: cubic-bezier(0, 0, 0.2, 1); transition-duration: 0.2s; }
 
 #XfceNotifyWindow buttonbox button:hover { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0) 100%, transparent 0%), image(alpha(currentColor, 0.1)); box-shadow: none; }
 
-#XfceNotifyWindow buttonbox button:active { box-shadow: none; transition: all 0.2s cubic-bezier(0, 0, 0.2, 1), background-image 0; animation: flat_ripple_effect 0.3s cubic-bezier(0, 0, 0.2, 1) forwards; }
+#XfceNotifyWindow buttonbox button:active { box-shadow: none; transition: all 0.2s cubic-bezier(0, 0, 0.2, 1), background-image 0s; animation: flat_ripple_effect 0.3s cubic-bezier(0, 0, 0.2, 1) forwards; }
 
 #XfceNotifyWindow buttonbox button:checked { box-shadow: none; }
 
 #XfceNotifyWindow buttonbox button:disabled { box-shadow: none; }
 
 #XfceNotifyWindow buttonbox button:disabled > label { color: inherit; }
+
+@keyframes colorful_bar { 0% { -gtk-icon-source: linear-gradient(to bottom, transparent 50%, #F44336 50%, #F44336 calc(50% + 2px), transparent calc(50% + 2px), transparent 100%);
+    -gtk-icon-transform: scale(0, 1); }
+  24.9% { -gtk-icon-source: linear-gradient(to bottom, transparent 50%, #F44336 50%, #F44336 calc(50% + 2px), transparent calc(50% + 2px), transparent 100%);
+    -gtk-icon-transform: scale(1, 1); }
+  25% { -gtk-icon-source: linear-gradient(to bottom, transparent 50%, #FFEB3B 50%, #FFEB3B calc(50% + 2px), transparent calc(50% + 2px), transparent 100%);
+    -gtk-icon-transform: scale(1, 1); }
+  49.9% { -gtk-icon-source: linear-gradient(to bottom, transparent 50%, #FFEB3B 50%, #FFEB3B calc(50% + 2px), transparent calc(50% + 2px), transparent 100%);
+    -gtk-icon-transform: scale(0, 1); }
+  50% { -gtk-icon-source: linear-gradient(to bottom, transparent 50%, #4CAF50 50%, #4CAF50 calc(50% + 2px), transparent calc(50% + 2px), transparent 100%);
+    -gtk-icon-transform: scale(0, 1); }
+  74.9% { -gtk-icon-source: linear-gradient(to bottom, transparent 50%, #4CAF50 50%, #4CAF50 calc(50% + 2px), transparent calc(50% + 2px), transparent 100%);
+    -gtk-icon-transform: scale(1, 1); }
+  75% { -gtk-icon-source: linear-gradient(to bottom, transparent 50%, #2196F3 50%, #2196F3 calc(50% + 2px), transparent calc(50% + 2px), transparent 100%);
+    -gtk-icon-transform: scale(1, 1); }
+  99.9% { -gtk-icon-source: linear-gradient(to bottom, transparent 50%, #2196F3 50%, #2196F3 calc(50% + 2px), transparent calc(50% + 2px), transparent 100%);
+    -gtk-icon-transform: scale(0, 1); }
+  100% { -gtk-icon-source: linear-gradient(to bottom, transparent 50%, #F44336 50%, #F44336 calc(50% + 2px), transparent calc(50% + 2px), transparent 100%);
+    -gtk-icon-transform: scale(0, 1); } }
 
 /******************* Xfce-Notify-4.0 * */
 #XfceNotifyWindow, #XfceNotifyWindow:hover { border-radius: 2px; border: 1px solid #222d32; color: #CFD8DC; background-color: rgba(34, 45, 50, 0.9); box-shadow: none; }

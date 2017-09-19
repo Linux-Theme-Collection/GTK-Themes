@@ -12,15 +12,16 @@ gtk-color-scheme = "panel_bg_color:#13191C"
 gtk-color-scheme = "secondary_dark_color:#243035"
 gtk-color-scheme = "solid_white:#FFFFFF"
 gtk-color-scheme = "accent_color:#4DB6AC"
+gtk-color-scheme = "light_color:#2F3D44"
 
 
 #
 # Default Colours
 #
-style "default" {
+style "default_colors" {
   text[NORMAL] = mix(0.75, @text_color, @bg_color)
   text[PRELIGHT] = @text_color
-  text[ACTIVE] = mix(0.8, @selected_fg_color, @selected_bg_color)
+  text[ACTIVE] = @selected_fg_color
   text[INSENSITIVE] = mix(0.4, @text_color, @base_color)
   text[SELECTED] = @selected_fg_color
 

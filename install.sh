@@ -22,5 +22,5 @@ sudo cp -rf icons/ /usr/share/
 echo "复制字体..."
 sudo cp -rf fonts/ /usr/share/
 
-echo "enjoy! :)"
+echo "finished!! --:D enjoy! :)"
 

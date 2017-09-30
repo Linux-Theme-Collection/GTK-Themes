@@ -4,7 +4,7 @@ src="https://raw.githubusercontent.com/Linux-Theme-Collection/Theme-By-Mame/mast
 alt="preview"/>
 </p>
 
-# Linux主题，适用于大部分桌面（自行修改脚本 在目录删除不需要的主题）
+# Linux主题，适用于大部分桌面（脚本未写完）
 
 普通用户运行：
 ```

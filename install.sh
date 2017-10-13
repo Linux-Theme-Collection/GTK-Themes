@@ -168,7 +168,7 @@ adapta_gtk_theme(){
                 $USER emerge adapta-gtk-theme
         ;;
         *)
-                git clone -depth 1 https://github.com/Linux-Theme-Collection/Theme-By-Mame /tmp/adapta-gtk-theme
+                git clone -depth 1 https://github.com/Linux-Theme-Collection/GTK-Themes /tmp/adapta-gtk-theme
                 $USER mv /tmp/adapta-gtk-theme/themes/Adapta* /usr/share/themes
                 $USER rm -r /tmp/adapta-gtk-theme
         ;;
@@ -216,7 +216,7 @@ echo 还没想好咋写 现在是全安装
 papirus_icon_theme
 paper_icon_theme
 adapta_gtk_theme
-adapta_kde_theme
+# adapta_kde_theme
 }
 
 

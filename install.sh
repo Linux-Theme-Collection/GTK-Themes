@@ -19,9 +19,6 @@ install_layman(){
     $USER layman -L > /dev/null
 }
 
-install_kvantum(){
-}
-
 # 获取发行版
 get_OS(){
     if (grep -i ubuntu /etc/*release > /dev/null);then
@@ -81,6 +78,9 @@ papirus_icon_theme(){
                 $USER yum update
                 $USER yum install papirus-icon-theme
         ;;
+        opensuse)
+                xdg-open https://software.opensuse.org/download.html\?project=home:kill_it\&package=papirus-icon-theme
+        ;;
         solus)
                 $USER eopkg install papirus-icon-theme
         ;;
@@ -121,9 +121,11 @@ paper_icon_theme(){
                 yaourt -S paper-icon-theme-git
         ;;
         fedora)
-                $USER dnf config-manager --add-repo https://download.opensuse.org/repositories/home:snwh:paper/Fedora_25/home:snwh:paper.repo
-                $USER dnf install paper-icon-theme
+                xdg-open https://software.opensuse.org/download.html\?project=home%3Asnwh%3Apaper\&package=paper-icon-theme
         ;;
+        opensuse)
+                xdg-open https://software.opensuse.org/download.html\?project=home%3Asnwh%3Apaper\&package=paper-icon-theme
+                
         solus)
                 $USER eopkg install paper-icon-theme
         ;;
@@ -174,18 +176,47 @@ adapta_gtk_theme(){
 }
 
 adapta_kde_theme(){
-}
-
-arc_kde_theme(){
+    case $OS in
+        ubuntu)
+            $USER add-apt-repository ppa:papirus/papirus
+            $USER apt-get update
+            $USER apt-get install --install-recommends adapta-kde
+        ;;
+        arch)
+            yaourt -S adapta-kde
+        ;;
+        opensuse)
+            xdg-open https://software.opensuse.org/download.html\?project=home:kill_it\&package=adapta-kde
+        ;;
+        *)
+            wget -O /tmp/adapta-kde.tar.gz https://github.com/PapirusDevelopmentTeam/adapta-kde/archive/master.tar.gz
+            tar -xf /tmp/adapta-kde.tar.gz -C /tmp/adapta-kde
+            cd /tmp/adapta-kde-master
+            echo "清理ing"
+            $USER rm -r /usr/share/aurorae/themes/Adapta
+            $USER rm -r /usr/share/color-schemes/Adapta*
+            $USER rm -r /usr/share/konsole/Adapta*
+            $USER rm -r /usr/share/Kvantum/Adapta*
+            $USER rm -r /usr/share/plasma/desktoptheme/Adapta
+            $USER rm -r /usr/share/plasma/look-and-feel/com.github.varlesh.adapta
+            $USER rm -r /usr/share/wallpapers/Adapta
+            $USER rm -r /usr/share/yakuake/skins/adapta*
+            echo "安装ing"
+            $USER cp -R aurorae/ /usr/share/
+            $USER cp -R color-schemes /usr/share
+            $USER cp -R konsole /usr/share
+            $USER cp -R Kvantum /usr/share
+            $USER cp -R plasma  /usr/share
+            $USER cp -R wallpapers /usr/share
+            $USER cp -R yakuake /usr/share
 }
 
 choose_theme(){
-    echo "         输入你想安装的主题
-    [1] Papirus Icon Theme(推荐)
-    [2] Paper Icon Theme
-    [3] Adapta Gtk Theme(推荐)
-    [4] Adaota KDE Theme(KDE桌面推荐）
-    "
+echo 还没想好咋写 现在是全安装
+papirus_icon_theme
+paper_icon_theme
+adapta_gtk_theme
+adapta_kde_theme
 }
 
 

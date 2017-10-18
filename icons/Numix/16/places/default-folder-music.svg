@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 16 16"
+   id="svg9154"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="default-folder-music.svg">
+  <metadata
+     id="metadata9172">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs9170" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview9168"
+     showgrid="false"
+     inkscape:zoom="14.75"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:current-layer="svg9154" />
+  <g
+     transform="translate(0,-1036.3622)"
+     id="g9156"
+     style="fill:#cccccc;fill-opacity:1">
+    <path
+       d="m -5 8.259 c 0 0.962 -0.816 1.741 -1.823 1.741 -1.01 0 -1.823 -0.78 -1.823 -1.741 0 -0.962 0.816 -1.741 1.823 -1.741 1.01 0 1.823 0.78 1.823 1.741 z"
+       transform="matrix(1.6457927,0,0,1.7226703,14.228963,1035.1355)"
+       style="fill:#cccccc;fill-opacity:1;stroke:none"
+       id="path9158" />
+    <path
+       transform="matrix(1.6457927,0,0,1.7226703,24.228964,1035.1355)"
+       d="m -5 8.259 c 0 0.962 -0.816 1.741 -1.823 1.741 -1.01 0 -1.823 -0.78 -1.823 -1.741 0 -0.962 0.816 -1.741 1.823 -1.741 1.01 0 1.823 0.78 1.823 1.741 z"
+       style="fill:#cccccc;fill-opacity:1;stroke:none"
+       id="path9160" />
+    <rect
+       width="2"
+       height="12"
+       x="4"
+       y="1038.36"
+       rx="1"
+       style="fill:#cccccc;fill-opacity:1;stroke:none"
+       id="rect9162" />
+    <rect
+       rx="1"
+       y="1038.36"
+       x="14"
+       height="12"
+       width="2"
+       style="fill:#cccccc;fill-opacity:1;stroke:none"
+       id="rect9164" />
+    <rect
+       width="12"
+       height="5"
+       x="4"
+       y="1036.36"
+       rx="2"
+       style="fill:#cccccc;fill-opacity:1;stroke:none"
+       id="rect9166" />
+  </g>
+</svg>

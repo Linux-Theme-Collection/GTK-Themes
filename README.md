@@ -1,7 +1,10 @@
 <p align="center">
   <img 
 src="https://raw.githubusercontent.com/Linux-Theme-Collection/Theme-By-Mame/master/preview.png" 
-alt="preview"/>
+alt="preview"/><br/>
+ <img 
+src="https://raw.githubusercontent.com/Linux-Theme-Collection/Theme-By-Mame/master/preview2.png" 
+alt="preview2"/>
 </p>
 
 # Linux主题，适用于大部分桌面（脚本未写完）

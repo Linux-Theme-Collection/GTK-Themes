@@ -125,7 +125,7 @@ paper_icon_theme(){
         ;;
         opensuse)
                 xdg-open https://software.opensuse.org/download.html\?project=home%3Asnwh%3Apaper\&package=paper-icon-theme
-                
+	;;	
         solus)
                 $USER eopkg install paper-icon-theme
         ;;
@@ -175,7 +175,7 @@ adapta_gtk_theme(){
     esac
 }
 
-adapta_kde_theme(){
+adapta_kde_theme() {
     case $OS in
         ubuntu)
             $USER add-apt-repository ppa:papirus/papirus
@@ -209,7 +209,8 @@ adapta_kde_theme(){
             $USER cp -R plasma  /usr/share
             $USER cp -R wallpapers /usr/share
             $USER cp -R yakuake /usr/share
-}
+	    esac
+    }
 
 choose_theme(){
 echo 还没想好咋写 现在是全安装

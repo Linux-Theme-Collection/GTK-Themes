@@ -11,7 +11,7 @@ alt="preview2"/>
 
 普通用户运行：
 ```
-git clone --depth 1 https://github.com/Linux-Theme-Collection/Theme-By-Mame.git
-cd Theme-By-Mame
+git clone --depth 1 https://github.com/Linux-Theme-Collection/GTK-Themes.git
+cd GTK-Themes
 ./install.sh   ## or run   "./install-all.sh" to install all themes
 ```

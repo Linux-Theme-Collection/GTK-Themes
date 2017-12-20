@@ -193,7 +193,7 @@ adapta_kde_theme() {
         *)
             $USER wget -O /tmp/adapta-kde.tar.gz https://github.com/PapirusDevelopmentTeam/adapta-kde/archive/master.tar.gz
             $USER tar -xf /tmp/adapta-kde.tar.gz -C /tmp
-            cd /tmp/adapta-kde-master
+            $USER cd /tmp/adapta-kde-master
             $USER make install
 	    esac
     }

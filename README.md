@@ -9,9 +9,19 @@ alt="preview2"/>
 
 # Linux主题，适用于大部分桌面（默认脚本安装图中主题）
 
-普通用户运行：
+使用方法：
 ```
-git clone --depth 1 https://github.com/Linux-Theme-Collection/GTK-Themes.git
-cd GTK-Themes
-./install.sh   ## or run   "./install-all.sh" to install all themes
+wget https://github.com/Linux-Theme-Collection/GTK-Themes/raw/master/install.sh
+chmod +x install.sh
+./install.sh
 ```
+
+里面有4个主题;
+
+papirus_icon_theme 适配最全的第三方icon主题（推荐）
+
+paper_icon_theme 和原生Android icon主题类似
+
+adapta_gtk_theme MD质感的GTK主题（推荐）
+
+adapta_kde_theme KDE下的主题（即将迁移到KDE-Themes）

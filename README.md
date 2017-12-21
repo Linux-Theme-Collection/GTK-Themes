@@ -1,9 +1,9 @@
 <p align="center">
   <img 
-src="https://raw.githubusercontent.com/Linux-Theme-Collection/Theme-By-Mame/master/preview.png" 
+src="https://raw.githubusercontent.com/Linux-Theme-Collection/Theme-By-Mame/master/preview-kde.png" 
 alt="preview"/><br/>
  <img 
-src="https://raw.githubusercontent.com/Linux-Theme-Collection/Theme-By-Mame/master/preview2.png" 
+src="https://raw.githubusercontent.com/Linux-Theme-Collection/Theme-By-Mame/master/preview-gnome.png" 
 alt="preview2"/>
 </p>
 

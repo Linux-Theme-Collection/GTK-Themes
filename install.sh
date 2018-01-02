@@ -199,7 +199,7 @@ adapta_kde_theme() {
     }
 
 choose_theme(){
-cmd=(dialog --separate-output --checklist "Select themes:" 22 76 16)
+cmd=(dialog --separate-output --checklist "Select themes:(上下移动，空格选择）" 22 76 16)
 options=(1 "papirus_icon_theme" off    
          2 "paper_icon_theme" off
          3 "adapta_gtk_theme" off

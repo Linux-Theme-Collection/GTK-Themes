@@ -199,13 +199,31 @@ adapta_kde_theme() {
     }
 
 choose_theme(){
-    echo "请输入你想安装主题所对应的序号"
-    select theme in "papirus_icon_theme" "paper_icon_theme" "adapta_gtk_theme" "adapta_kde_theme" "quit";do
-        if [ "$theme" == quit ];then
-            exit
-        fi
-        $theme
-        done
+cmd=(dialog --separate-output --checklist "Select themes:" 22 76 16)
+options=(1 "papirus_icon_theme" off    
+         2 "paper_icon_theme" off
+         3 "adapta_gtk_theme" off
+         4 "adapta_kde_theme" off)
+choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
+clear
+for choice in $choices
+do
+    case $choice in
+        1)
+            papirus_icon_theme
+            ;;
+        2)
+            paper_icon_theme
+            ;;
+        3)
+            adapta_gtk_theme
+            ;;
+        4)
+            adapta_kde_theme
+            ;;
+    esac
+done
+
 }
 
 

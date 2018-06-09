@@ -1,50 +1,44 @@
 #!/bin/bash
 
 # 安装一些工具
-install_yaourt(){
-    if (grep -i archlinuxcn /etc/pacman.conf > /dev/null);then
-        :
-    else
+install_aurman(){
+    if ( ! grep -i archlinuxcn /etc/pacman.conf > /dev/null 2>&1);then
         $USER echo "[archlinuxcn]
 Server = https://mirrors.ustc.edu.cn/archlinuxcn/\$arch" >> /etc/pacman.conf
     fi
     
     $USER pacman -Syu
     $USER pacman -S archlinuxcn-keyring
-    $USER pacman -S yaourt
+    $USER pacman -S aurman
 }
 
 install_layman(){
     $USER emerge layman
-    $USER layman -L > /dev/null
+    $USER layman -L
 }
 
 # 获取发行版
 get_OS(){
-    if (grep -i ubuntu /etc/*release > /dev/null);then
+    if (grep -i ubuntu /etc/*release > /dev/null 2>&1);then
         OS=ubuntu
-    elif (grep -i debian /etc/*release > /dev/null);then
+    elif (grep -i debian /etc/*release > /dev/null 2>&1);then
         OS=debian
-    elif (grep -i arch /etc/*release > /dev/null);then
+    elif (grep -i arch /etc/*release > /dev/null 2>&1);then
         OS=arch
-        if (whereis yaourt | grep / > /dev/null);then
-            :
-        else
-            install_yaourt
+        if ( ! hash aurman > /dev/null 2>&1);then
+            install_aurman
         fi
-    elif (grep -i manjaro /etc/*release > /dev/null);then
+    elif (grep -i manjaro /etc/*release > /dev/null 2>&1);then
         OS=manjaro
-    elif (grep -i fedora /etc/*release > /dev/null);then
+    elif (grep -i fedora /etc/*release > /dev/null 2>&1);then
         OS=fedora
-    elif (grep -i opensuse /etc/*release > /dev/null);then
+    elif (grep -i opensuse /etc/*release > /dev/null 2>&1);then
         OS=opensuse
-    elif (grep -i solus /etc/*release > /dev/null);then
+    elif (grep -i solus /etc/*release > /dev/null 2>&1);then
         OS=solus
-    elif (grep -i gentoo /etc/*release > /dev/null);then
+    elif (grep -i gentoo /etc/*release > /dev/null 2>&1);then
         OS=gentoo
-        if (whereis layman | grep / > /dev/null);then
-            :
-        else
+        if ( ! hash layman > /dev/null 2>&1);then
             install_layman
         fi
     else
@@ -69,7 +63,7 @@ papirus_icon_theme(){
                 $USER apt-get install papirus-icon-theme
         ;;
         arch)
-                yaourt -S papirus-icon-theme-git
+                aurman -S papirus-icon-theme-git
         ;;
         manjaro)
                 $USER pacman -S papirus-icon-theme
@@ -89,7 +83,9 @@ papirus_icon_theme(){
         gentoo)
                 $USER layman -a 4nykey
                 $USER layman -S
-                $USER emerge papirus-icon-theme
+                $USER emerge -av papirus-icon-theme
+                $USER etc-update --automode -3
+                $USER emerge -av papirus-icon-theme
         ;;
         *)
                 wget -O /tmp/papirus-icon-theme.tar.gz https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/archive/master.tar.gz
@@ -117,10 +113,10 @@ paper_icon_theme(){
                 rm /tmp/paper-icon.deb
         ;;
         arch)
-                yaourt -S paper-icon-theme-git
+                aurman -S paper-icon-theme-git
         ;;
         manjaro)
-                yaourt -S paper-icon-theme-git
+                aurman -S paper-icon-theme-git
         ;;
         fedora)
                 xdg-open https://software.opensuse.org/download.html\?project=home%3Asnwh%3Apaper\&package=paper-icon-theme
@@ -134,7 +130,9 @@ paper_icon_theme(){
         gentoo)
                 $USER layman -a 4nykey
                 $USER layman -S
-                $USER emerge papaer-icon-theme
+                $USER emerge -av papaer-icon-theme
+                $USER etc-update --automode -3
+                $USER emerge -av papaer-icon-theme
         ;;
         *)
                 $USER rm -r /tmp/paper-icon
@@ -167,6 +165,8 @@ adapta_gtk_theme(){
                 $USER layman -a jorgicio
                 $USER layman -S
                 $USER emerge adapta-gtk-theme
+                $USER etc-update --automode -3
+                $USER emerge adapta-gtk-theme
         ;;
         *)
                 git clone -depth 1 https://github.com/Linux-Theme-Collection/GTK-Themes /tmp/adapta-gtk-theme
@@ -185,7 +185,7 @@ adapta_kde_theme() {
             $USER apt-get install --install-recommends adapta-kde
         ;;
         arch)
-            yaourt -S adapta-kde
+            aurman -S adapta-kde
         ;;
         opensuse)
             xdg-open https://software.opensuse.org/download.html\?project=home:kill_it\&package=adapta-kde
@@ -202,9 +202,10 @@ choose_theme(){
 	echo "请输入你想安装主题所对应的序号"
 	select theme in "papirus_icon_theme" "paper_icon_theme" "adapta_gtk_theme" "adapta_kde_theme" "quit";do
 		if [ "$theme" == quit ];then
-			exit
+			exit 1
 		fi
 			$theme
+            exit
 	done
 }
 
@@ -212,16 +213,14 @@ choose_theme(){
 # Main
 if [ `whoami` == root ];then
     USER=''
-elif (whereis sudo | grep / > /dev/null);then
+elif (hash sudo > /dev/null 2>&1);then
     USER='sudo'
 else
     echo "请安装sudo(当然也需要把当前用户添加到wheel用户组并修改sudo配置）或在root用户下运行"
     exit
 fi
 
-if (whereis git | grep / > /dev/null);then
-    :
-else
+if ( ! hash git > /dev/null 2>&1);then
     echo "请安装Git并设置Git代理"
     exit
 fi
